@@ -1,0 +1,6 @@
+.anchor {
+    /*-fx-background-image:url('file:/d:/HomeWork/Java/JavaFX/src/by/bntu/fitr/poisit/tarasenko/project/view/images/Background.jpg');*/
+    -fx-background-image:url('./images/Background.jpg');
+    -fx-background-position: center;
+    -fx-background-size: 883 538;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFX.jnlp">
+  <information>
+    <title>Project</title>
+    <vendor>Unknown</vendor>
+    <description>JavaFX</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFX.jar" size="231465" download="eager" />
+    <jar href="log4j_-_kopia.jar" size="367444" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="by.bntu.fitr.poisit.tarasenko.project.controller.Main"  name="JavaFX" />
+  <update check="background"/>
+</jnlp>

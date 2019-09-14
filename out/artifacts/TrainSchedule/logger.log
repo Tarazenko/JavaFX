@@ -1,0 +1,1241 @@
+2019-05-20 12:30:13 TRACE Controller:90 - Set default date: 2019-05-20
+2019-05-20 12:30:13 INFO  Controller:96 - Cities recived
+2019-05-20 12:30:13 INFO  Controller:102 - Success parse of cities: true
+2019-05-20 12:30:26 TRACE Controller:107 - Press button "Find"
+2019-05-20 12:30:26 TRACE Controller:110 - Departure station:154
+2019-05-20 12:30:26 TRACE Controller:112 - Arrival station:157
+2019-05-20 12:30:26 TRACE Controller:114 - Date: 2019-05-21
+2019-05-20 12:30:26 TRACE TrainManeger:34 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c157&date=2019-05-21
+2019-05-20 12:30:31 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-20 12:30:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-21', departureTime='03:14 2019-05-21', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-20 12:30:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:18 2019-05-21', departureTime='06:40 2019-05-21', duration=03ч38м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='703Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-20 12:30:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:51 2019-05-21', departureTime='18:04 2019-05-21', duration=04ч47м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='657Б', exceptDays='null', rout='Витебск — Брест}
+2019-05-20 12:30:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:22 2019-05-22', departureTime='18:43 2019-05-21', duration=05ч39м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='623Б', exceptDays='null', rout='Витебск — Гродно}
+2019-05-20 12:30:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:31 2019-05-22', departureTime='21:38 2019-05-21', duration=08ч53м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='626Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-20 12:30:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:33 2019-05-22', departureTime='02:27 2019-05-22', duration=04ч06м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='083А', exceptDays='null', rout='Санкт-Петербург — Гродно}
+2019-05-20 12:30:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-22', departureTime='03:14 2019-05-22', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-20 12:30:31 TRACE Controller:149 - Fill table
+2019-05-20 22:48:47 TRACE Controller:90 - Set default date: 2019-05-20
+2019-05-20 22:48:47 INFO  Controller:96 - Cities recived
+2019-05-20 22:48:47 INFO  Controller:102 - Success parse of cities: true
+2019-05-20 23:49:28 TRACE Controller:107 - Press button "Find"
+2019-05-20 23:49:28 TRACE Controller:110 - Departure station:154
+2019-05-20 23:49:28 TRACE Controller:112 - Arrival station:157
+2019-05-20 23:49:28 TRACE Controller:114 - Date: 2019-05-20
+2019-05-20 23:49:28 TRACE TrainManeger:34 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c157&date=2019-05-20
+2019-05-20 23:49:31 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-20 23:49:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:45 2019-05-20', departureTime='00:10 2019-05-20', duration=06ч35м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='679Б', exceptDays='null', rout='Витебск — Барановичи}
+2019-05-20 23:49:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:33 2019-05-20', departureTime='02:27 2019-05-20', duration=04ч06м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='083А', exceptDays='null', rout='Санкт-Петербург — Гродно}
+2019-05-20 23:49:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-20', departureTime='03:14 2019-05-20', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-20 23:49:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:18 2019-05-20', departureTime='06:40 2019-05-20', duration=03ч38м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='703Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-20 23:49:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:51 2019-05-20', departureTime='18:04 2019-05-20', duration=04ч47м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='657Б', exceptDays='null', rout='Витебск — Брест}
+2019-05-20 23:49:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:22 2019-05-21', departureTime='18:43 2019-05-20', duration=05ч39м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='623Б', exceptDays='null', rout='Витебск — Гродно}
+2019-05-20 23:49:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:31 2019-05-21', departureTime='21:38 2019-05-20', duration=08ч53м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='626Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-20 23:49:31 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-21', departureTime='03:14 2019-05-21', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-20 23:49:31 TRACE Controller:149 - Fill table
+2019-05-20 23:57:52 TRACE Controller:107 - Press button "Find"
+2019-05-20 23:57:52 TRACE Controller:110 - Departure station:null
+2019-05-20 23:57:52 TRACE Controller:112 - Arrival station:null
+2019-05-20 23:57:52 TRACE Controller:114 - Date: 2019-05-20
+2019-05-20 23:57:52 INFO  Controller:175 - User don't input departure station and arrival station
+2019-05-20 23:57:52 TRACE Controller:166 - Set text in table: Проверьте введенные данные.
+2019-05-20 23:59:35 TRACE Controller:107 - Press button "Find"
+2019-05-20 23:59:35 TRACE Controller:110 - Departure station:154
+2019-05-20 23:59:35 TRACE Controller:112 - Arrival station:null
+2019-05-20 23:59:35 TRACE Controller:114 - Date: 2019-05-20
+2019-05-20 23:59:35 INFO  Controller:183 - User don't input arrival station
+2019-05-20 23:59:35 TRACE Controller:166 - Set text in table: Станция прибытия не найдена.
+2019-05-21 00:03:27 TRACE Controller:107 - Press button "Find"
+2019-05-21 00:03:27 TRACE Controller:110 - Departure station:154
+2019-05-21 00:03:27 TRACE Controller:112 - Arrival station:11070
+2019-05-21 00:03:27 TRACE Controller:114 - Date: 2019-05-20
+2019-05-21 00:03:27 TRACE TrainManeger:34 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c11070&date=2019-05-20
+2019-05-21 00:03:28 WARN  TrainManeger:45 - Don't recive anything from URL request.
+2019-05-21 00:03:28 TRACE Controller:149 - Fill table
+2019-05-21 00:03:39 TRACE Controller:107 - Press button "Find"
+2019-05-21 00:03:39 TRACE Controller:110 - Departure station:154
+2019-05-21 00:03:39 TRACE Controller:112 - Arrival station:11070
+2019-05-21 00:03:39 TRACE Controller:114 - Date: 2019-05-20
+2019-05-21 00:03:39 TRACE TrainManeger:34 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c11070&date=2019-05-20
+2019-05-21 00:03:39 WARN  TrainManeger:45 - Don't recive anything from URL request.
+2019-05-21 00:03:39 TRACE Controller:149 - Fill table
+2019-05-21 00:03:47 TRACE Controller:107 - Press button "Find"
+2019-05-21 00:03:47 TRACE Controller:110 - Departure station:154
+2019-05-21 00:03:47 TRACE Controller:112 - Arrival station:null
+2019-05-21 00:03:47 TRACE Controller:114 - Date: 2019-05-20
+2019-05-21 00:03:47 INFO  Controller:183 - User don't input arrival station
+2019-05-21 00:03:47 TRACE Controller:166 - Set text in table: Станция прибытия не найдена.
+2019-05-21 00:03:54 TRACE Controller:107 - Press button "Find"
+2019-05-21 00:03:54 TRACE Controller:110 - Departure station:154
+2019-05-21 00:03:54 TRACE Controller:112 - Arrival station:null
+2019-05-21 00:03:54 TRACE Controller:114 - Date: 2019-05-20
+2019-05-21 00:03:54 INFO  Controller:183 - User don't input arrival station
+2019-05-21 00:03:54 TRACE Controller:166 - Set text in table: Станция прибытия не найдена.
+2019-05-21 00:03:57 TRACE Controller:107 - Press button "Find"
+2019-05-21 00:03:57 TRACE Controller:110 - Departure station:154
+2019-05-21 00:03:57 TRACE Controller:112 - Arrival station:157
+2019-05-21 00:03:57 TRACE Controller:114 - Date: 2019-05-20
+2019-05-21 00:03:57 TRACE TrainManeger:34 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c157&date=2019-05-20
+2019-05-21 00:03:58 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-21 00:03:58 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:45 2019-05-20', departureTime='00:10 2019-05-20', duration=06ч35м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='679Б', exceptDays='null', rout='Витебск — Барановичи}
+2019-05-21 00:03:58 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:33 2019-05-20', departureTime='02:27 2019-05-20', duration=04ч06м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='083А', exceptDays='null', rout='Санкт-Петербург — Гродно}
+2019-05-21 00:03:58 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-20', departureTime='03:14 2019-05-20', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-21 00:03:58 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:18 2019-05-20', departureTime='06:40 2019-05-20', duration=03ч38м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='703Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-21 00:03:58 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:51 2019-05-20', departureTime='18:04 2019-05-20', duration=04ч47м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='657Б', exceptDays='null', rout='Витебск — Брест}
+2019-05-21 00:03:58 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:22 2019-05-21', departureTime='18:43 2019-05-20', duration=05ч39м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='623Б', exceptDays='null', rout='Витебск — Гродно}
+2019-05-21 00:03:58 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:31 2019-05-21', departureTime='21:38 2019-05-20', duration=08ч53м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='626Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-21 00:03:58 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-21', departureTime='03:14 2019-05-21', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-21 00:03:58 TRACE Controller:149 - Fill table
+2019-05-21 00:04:07 TRACE Controller:107 - Press button "Find"
+2019-05-21 00:04:07 TRACE Controller:110 - Departure station:154
+2019-05-21 00:04:07 TRACE Controller:112 - Arrival station:239
+2019-05-21 00:04:07 TRACE Controller:114 - Date: 2019-05-20
+2019-05-21 00:04:07 TRACE TrainManeger:34 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c239&date=2019-05-20
+2019-05-21 00:04:07 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-21 00:04:07 TRACE Controller:149 - Fill table
+2019-05-21 00:07:17 TRACE Controller:107 - Press button "Find"
+2019-05-21 00:07:17 TRACE Controller:110 - Departure station:213
+2019-05-21 00:07:17 TRACE Controller:112 - Arrival station:239
+2019-05-21 00:07:17 TRACE Controller:114 - Date: 2019-05-20
+2019-05-21 00:07:17 TRACE TrainManeger:34 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c213&to=c239&date=2019-05-20
+2019-05-21 00:07:18 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-21 00:07:18 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:40 2019-05-21', departureTime='04:33 2019-05-20', duration=38ч07м, arrivalStation='Сочи', departureStation='Москва (Курский вокзал)', number='115А', exceptDays='null', rout='Санкт-Петербург — Адлер}
+2019-05-21 00:07:18 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:07 2019-05-21', departureTime='10:52 2019-05-20', duration=23ч15м, arrivalStation='Сочи', departureStation='Москва (Казанский вокзал)', number='104В', exceptDays='null', rout='Москва — Адлер}
+2019-05-21 00:07:18 INFO  TrainParser:78 - Information about train: Train{arrivalTime='04:43 2019-05-22', departureTime='19:50 2019-05-20', duration=32ч53м, arrivalStation='Сочи', departureStation='Москва (Казанский вокзал)', number='306М', exceptDays='null', rout='Москва — Сухум}
+2019-05-21 00:07:18 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:31 2019-05-22', departureTime='20:03 2019-05-20', duration=37ч28м, arrivalStation='Сочи', departureStation='Москва (Курский вокзал)', number='083М', exceptDays='null', rout='Москва — Адлер}
+2019-05-21 00:07:18 TRACE Controller:149 - Fill table
+2019-05-21 00:08:18 TRACE Controller:90 - Set default date: 2019-05-21
+2019-05-21 00:08:19 INFO  Controller:96 - Cities recived
+2019-05-21 00:08:19 INFO  Controller:102 - Success parse of cities: true
+2019-05-21 00:08:30 TRACE Controller:107 - Press button "Find"
+2019-05-21 00:08:30 TRACE Controller:110 - Departure station:154
+2019-05-21 00:08:30 TRACE Controller:112 - Arrival station:10897
+2019-05-21 00:08:30 TRACE Controller:114 - Date: 2019-05-21
+2019-05-21 00:08:30 TRACE TrainManeger:34 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c10897&date=2019-05-21
+2019-05-21 00:08:31 WARN  TrainManeger:45 - Don't recive anything from URL request.
+2019-05-21 00:08:31 TRACE Controller:149 - Fill table
+2019-05-21 00:08:39 TRACE Controller:107 - Press button "Find"
+2019-05-21 00:08:39 TRACE Controller:110 - Departure station:154
+2019-05-21 00:08:39 TRACE Controller:112 - Arrival station:10897
+2019-05-21 00:08:39 TRACE Controller:114 - Date: 2019-05-21
+2019-05-21 00:08:39 TRACE TrainManeger:34 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c10897&date=2019-05-21
+2019-05-21 00:08:39 WARN  TrainManeger:45 - Don't recive anything from URL request.
+2019-05-21 00:08:39 TRACE Controller:149 - Fill table
+2019-05-21 00:09:33 TRACE Controller:107 - Press button "Find"
+2019-05-21 00:09:33 TRACE Controller:110 - Departure station:154
+2019-05-21 00:09:33 TRACE Controller:112 - Arrival station:10897
+2019-05-21 00:09:33 TRACE Controller:114 - Date: 2019-05-21
+2019-05-21 00:09:33 TRACE TrainManeger:34 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c10897&date=2019-05-21
+2019-05-21 00:09:40 WARN  TrainManeger:45 - Don't recive anything from URL request.
+2019-05-21 00:09:40 TRACE Controller:149 - Fill table
+2019-05-21 00:09:40 TRACE Controller:136 - User press reverce image
+2019-05-21 00:09:40 TRACE Controller:162 - Reverce direction
+2019-05-21 00:09:43 TRACE Controller:107 - Press button "Find"
+2019-05-21 00:09:43 TRACE Controller:110 - Departure station:10897
+2019-05-21 00:09:43 TRACE Controller:112 - Arrival station:154
+2019-05-21 00:09:43 TRACE Controller:114 - Date: 2019-05-21
+2019-05-21 00:09:43 TRACE TrainManeger:34 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c10897&to=c154&date=2019-05-21
+2019-05-21 00:09:43 WARN  TrainManeger:45 - Don't recive anything from URL request.
+2019-05-21 00:09:43 TRACE Controller:149 - Fill table
+2019-05-21 00:39:39 TRACE Controller:90 - Set default date: 2019-05-21
+2019-05-21 00:39:39 ERROR Controller:99 - Problems with cities id:java.io.FileNotFoundException: d:\HomeWork\Java\JavaFX\out\artifacts\TrainSchedule\.\src\by\bntu\fitr\poisit\tarasenko\project\util\cities.xml (Системе не удается найти указанный путь)
+2019-05-21 00:39:39 INFO  Controller:101 - Success parse of cities: false
+2019-05-21 00:39:42 TRACE Controller:106 - Press button "Find"
+2019-05-21 00:39:42 WARN  Controller:128 - Write user about problems with cities id
+2019-05-21 00:39:42 TRACE Controller:165 - Set text in table: Ошибка, не найден 'cities.xml'. Попробуйте перезапустить приложение.
+2019-05-21 00:39:47 TRACE Controller:135 - User press reverce image
+2019-05-21 00:39:47 TRACE Controller:161 - Reverce direction
+2019-05-21 00:42:12 TRACE Controller:90 - Set default date: 2019-05-21
+2019-05-21 00:42:12 INFO  Controller:96 - Cities recived
+2019-05-21 00:42:12 INFO  Controller:101 - Success parse of cities: true
+2019-05-21 00:42:14 TRACE Controller:106 - Press button "Find"
+2019-05-21 00:42:14 TRACE Controller:109 - Departure station:null
+2019-05-21 00:42:14 TRACE Controller:111 - Arrival station:null
+2019-05-21 00:42:14 TRACE Controller:113 - Date: 2019-05-21
+2019-05-21 00:42:14 INFO  Controller:174 - User don't input departure station and arrival station
+2019-05-21 00:42:14 TRACE Controller:165 - Set text in table: Проверьте введенные данные.
+2019-05-21 00:42:29 TRACE Controller:106 - Press button "Find"
+2019-05-21 00:42:29 TRACE Controller:109 - Departure station:154
+2019-05-21 00:42:29 TRACE Controller:111 - Arrival station:10897
+2019-05-21 00:42:29 TRACE Controller:113 - Date: 2019-05-21
+2019-05-21 00:42:29 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c10897&date=2019-05-21
+2019-05-21 00:42:30 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 00:42:30 INFO  Controller:123 - User input wrong city
+2019-05-21 00:42:30 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-21 00:53:26 TRACE Controller:90 - Set default date: 2019-05-21
+2019-05-21 00:53:26 INFO  Controller:96 - Cities recived
+2019-05-21 00:53:26 INFO  Controller:101 - Success parse of cities: true
+2019-05-21 16:08:59 TRACE Controller:90 - Set default date: 2019-05-21
+2019-05-21 16:08:59 INFO  Controller:96 - Cities recived
+2019-05-21 16:08:59 INFO  Controller:101 - Success parse of cities: true
+2019-05-21 16:09:14 TRACE Controller:106 - Press button "Find"
+2019-05-21 16:09:14 TRACE Controller:109 - Departure station:154
+2019-05-21 16:09:14 TRACE Controller:111 - Arrival station:157
+2019-05-21 16:09:14 TRACE Controller:113 - Date: 2019-05-08
+2019-05-21 16:09:14 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c157&date=2019-05-08
+2019-05-21 16:09:20 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-21 16:09:20 INFO  TrainParser:78 - Information about train: Train{arrivalTime='05:32 2019-05-08', departureTime='00:10 2019-05-08', duration=05ч22м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='249Б', exceptDays='null', rout='Санкт-Петербург — Минск}
+2019-05-21 16:09:20 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:45 2019-05-08', departureTime='00:10 2019-05-08', duration=06ч35м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='249Б', exceptDays='null', rout='Витебск — Барановичи}
+2019-05-21 16:09:20 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:33 2019-05-08', departureTime='02:27 2019-05-08', duration=04ч06м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='083А', exceptDays='null', rout='Санкт-Петербург — Гродно}
+2019-05-21 16:09:20 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-08', departureTime='03:14 2019-05-08', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-21 16:09:20 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:18 2019-05-08', departureTime='06:40 2019-05-08', duration=03ч38м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='703Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-21 16:09:20 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:51 2019-05-08', departureTime='18:04 2019-05-08', duration=04ч47м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='657Б', exceptDays='null', rout='Витебск — Брест}
+2019-05-21 16:09:20 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:22 2019-05-09', departureTime='18:43 2019-05-08', duration=05ч39м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='623Б', exceptDays='null', rout='Витебск — Гродно}
+2019-05-21 16:09:20 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:31 2019-05-09', departureTime='21:38 2019-05-08', duration=08ч53м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='626Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-21 16:09:20 INFO  TrainParser:78 - Information about train: Train{arrivalTime='05:32 2019-05-09', departureTime='00:10 2019-05-09', duration=05ч22м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='249Б', exceptDays='null', rout='Санкт-Петербург — Минск}
+2019-05-21 16:09:20 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:45 2019-05-09', departureTime='00:10 2019-05-09', duration=06ч35м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='249Б', exceptDays='null', rout='Витебск — Барановичи}
+2019-05-21 16:09:20 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-09', departureTime='03:14 2019-05-09', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-21 16:09:20 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='05:32 2019-05-08', departureTime='00:10 2019-05-08', duration=05ч22м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='249Б', exceptDays='null', rout='Санкт-Петербург — Минск}, Train{arrivalTime='06:45 2019-05-08', departureTime='00:10 2019-05-08', duration=06ч35м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='249Б', exceptDays='null', rout='Витебск — Барановичи}, Train{arrivalTime='06:33 2019-05-08', departureTime='02:27 2019-05-08', duration=04ч06м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='083А', exceptDays='null', rout='Санкт-Петербург — Гродно}, Train{arrivalTime='07:25 2019-05-08', departureTime='03:14 2019-05-08', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}, Train{arrivalTime='10:18 2019-05-08', departureTime='06:40 2019-05-08', duration=03ч38м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='703Б', exceptDays='null', rout='Витебск — Минск}, Train{arrivalTime='22:51 2019-05-08', departureTime='18:04 2019-05-08', duration=04ч47м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='657Б', exceptDays='null', rout='Витебск — Брест}, Train{arrivalTime='00:22 2019-05-09', departureTime='18:43 2019-05-08', duration=05ч39м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='623Б', exceptDays='null', rout='Витебск — Гродно}, Train{arrivalTime='06:31 2019-05-09', departureTime='21:38 2019-05-08', duration=08ч53м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='626Б', exceptDays='null', rout='Витебск — Минск}, Train{arrivalTime='05:32 2019-05-09', departureTime='00:10 2019-05-09', duration=05ч22м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='249Б', exceptDays='null', rout='Санкт-Петербург — Минск}, Train{arrivalTime='06:45 2019-05-09', departureTime='00:10 2019-05-09', duration=06ч35м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='249Б', exceptDays='null', rout='Витебск — Барановичи}, Train{arrivalTime='07:25 2019-05-09', departureTime='03:14 2019-05-09', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}]
+2019-05-21 16:09:20 TRACE Controller:148 - Fill table
+2019-05-21 16:09:26 TRACE Controller:135 - User press reverce image
+2019-05-21 16:09:26 TRACE Controller:161 - Reverce direction
+2019-05-21 16:09:26 TRACE Controller:135 - User press reverce image
+2019-05-21 16:09:26 TRACE Controller:161 - Reverce direction
+2019-05-21 17:09:13 TRACE Controller:90 - Set default date: 2019-05-21
+2019-05-21 17:09:13 INFO  Controller:96 - Cities recived
+2019-05-21 17:09:13 INFO  Controller:101 - Success parse of cities: true
+2019-05-21 17:09:24 TRACE Controller:106 - Press button "Find"
+2019-05-21 17:09:24 TRACE Controller:109 - Departure station:null
+2019-05-21 17:09:24 TRACE Controller:111 - Arrival station:157
+2019-05-21 17:09:24 TRACE Controller:113 - Date: 2019-05-21
+2019-05-21 17:09:24 INFO  Controller:178 - User don't input departure station
+2019-05-21 17:09:24 TRACE Controller:165 - Set text in table: Станция отправления не найдена.
+2019-05-21 17:09:28 TRACE Controller:135 - User press reverce image
+2019-05-21 17:09:28 TRACE Controller:161 - Reverce direction
+2019-05-21 17:09:31 TRACE Controller:106 - Press button "Find"
+2019-05-21 17:09:31 TRACE Controller:109 - Departure station:157
+2019-05-21 17:09:31 TRACE Controller:111 - Arrival station:null
+2019-05-21 17:09:31 TRACE Controller:113 - Date: 2019-05-21
+2019-05-21 17:09:31 INFO  Controller:182 - User don't input arrival station
+2019-05-21 17:09:31 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-21 17:09:47 TRACE Controller:106 - Press button "Find"
+2019-05-21 17:09:47 TRACE Controller:109 - Departure station:157
+2019-05-21 17:09:47 TRACE Controller:111 - Arrival station:118
+2019-05-21 17:09:47 TRACE Controller:113 - Date: 2019-05-21
+2019-05-21 17:09:47 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c118&date=2019-05-21
+2019-05-21 17:09:52 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 17:09:52 INFO  Controller:123 - User input wrong city
+2019-05-21 17:09:52 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-21 17:10:03 TRACE Controller:106 - Press button "Find"
+2019-05-21 17:10:03 TRACE Controller:109 - Departure station:157
+2019-05-21 17:10:03 TRACE Controller:111 - Arrival station:154
+2019-05-21 17:10:03 TRACE Controller:113 - Date: 2019-05-21
+2019-05-21 17:10:03 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c154&date=2019-05-21
+2019-05-21 17:10:05 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-21 17:10:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:08 2019-05-21', departureTime='06:15 2019-05-21', duration=04ч53м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='658Б', exceptDays='null', rout='Брест — Витебск}
+2019-05-21 17:10:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:23 2019-05-21', departureTime='16:43 2019-05-21', duration=03ч40м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='704Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-21 17:10:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:50 2019-05-21', departureTime='18:45 2019-05-21', duration=04ч05м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='052Б', exceptDays='null', rout='Брест — Санкт-Петербург}
+2019-05-21 17:10:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:46 2019-05-22', departureTime='21:26 2019-05-21', duration=09ч20м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-21 17:10:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:10 2019-05-22', departureTime='23:11 2019-05-21', duration=06ч59м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='634Б', exceptDays='null', rout='Гродно — Витебск}
+2019-05-21 17:10:05 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='11:08 2019-05-21', departureTime='06:15 2019-05-21', duration=04ч53м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='658Б', exceptDays='null', rout='Брест — Витебск}, Train{arrivalTime='20:23 2019-05-21', departureTime='16:43 2019-05-21', duration=03ч40м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='704Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='22:50 2019-05-21', departureTime='18:45 2019-05-21', duration=04ч05м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='052Б', exceptDays='null', rout='Брест — Санкт-Петербург}, Train{arrivalTime='06:46 2019-05-22', departureTime='21:26 2019-05-21', duration=09ч20м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='06:10 2019-05-22', departureTime='23:11 2019-05-21', duration=06ч59м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='634Б', exceptDays='null', rout='Гродно — Витебск}]
+2019-05-21 17:10:05 TRACE Controller:148 - Fill table
+2019-05-21 17:10:31 TRACE Controller:106 - Press button "Find"
+2019-05-21 17:10:31 TRACE Controller:109 - Departure station:157
+2019-05-21 17:10:31 TRACE Controller:111 - Arrival station:23254
+2019-05-21 17:10:31 TRACE Controller:113 - Date: 2019-05-21
+2019-05-21 17:10:31 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c23254&date=2019-05-21
+2019-05-21 17:10:32 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='01:43 2019-05-21', departureTime='00:38 2019-05-21', duration=01ч05м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='634Ф', exceptDays='null', rout='Коммунары — Гродно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='02:25 2019-05-21', departureTime='00:45 2019-05-21', duration=01ч40м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6101', exceptDays='null', rout='Минск-Пасс. — Молодечно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='03:58 2019-05-21', departureTime='02:59 2019-05-21', duration=00ч59м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='029Ч', exceptDays='null', rout='Москва — Калининград}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:11 2019-05-21', departureTime='04:40 2019-05-21', duration=01ч31м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6103', exceptDays='null', rout='Минск-Пасс. — Гудогай}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:53 2019-05-21', departureTime='05:24 2019-05-21', duration=01ч29м, arrivalStation='Молодечно', departureStation='Минск-Северный', number='7031', exceptDays='null', rout='Минск-Северный — Молодечно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:10 2019-05-21', departureTime='05:26 2019-05-21', duration=01ч44м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6105', exceptDays='null', rout='Минск-Пасс. — Молодечно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:33 2019-05-21', departureTime='06:25 2019-05-21', duration=02ч08м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6107', exceptDays='null', rout='Минск-Пасс. — Гудогай}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:36 2019-05-21', departureTime='06:30 2019-05-21', duration=01ч06м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='741Б', exceptDays='null', rout='Минск — Полоцк}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:08 2019-05-21', departureTime='07:02 2019-05-21', duration=01ч06м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='673Б', exceptDays='null', rout='Минск — Гродно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:15 2019-05-21', departureTime='07:24 2019-05-21', duration=00ч51м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='805Б', exceptDays='null', rout='Минск — Вильнюс}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:25 2019-05-21', departureTime='07:35 2019-05-21', duration=01ч50м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6109', exceptDays='null', rout='Минск-Пасс. — Молодечно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:46 2019-05-21', departureTime='08:48 2019-05-21', duration=01ч58м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6113', exceptDays='null', rout='Минск-Пасс. — Молодечно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:40 2019-05-21', departureTime='09:46 2019-05-21', duration=01ч54м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6115', exceptDays='null', rout='Минск-Пасс. — Залесье}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:24 2019-05-21', departureTime='10:30 2019-05-21', duration=00ч54м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='803Б', exceptDays='null', rout='Минск — Вильнюс}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='13:02 2019-05-21', departureTime='11:17 2019-05-21', duration=01ч45м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6117', exceptDays='null', rout='Минск-Пасс. — Молодечно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='14:44 2019-05-21', departureTime='12:59 2019-05-21', duration=01ч45м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6119', exceptDays='null', rout='Минск-Пасс. — Молодечно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='15:54 2019-05-21', departureTime='14:06 2019-05-21', duration=01ч48м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6121', exceptDays='null', rout='Минск-Пасс. — Гудогай}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='16:29 2019-05-21', departureTime='15:30 2019-05-21', duration=00ч59м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='731Ф', exceptDays='null', rout='Минск — Гродно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:06 2019-05-21', departureTime='16:22 2019-05-21', duration=01ч44м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6125', exceptDays='null', rout='Минск-Пасс. — Гудогай}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:14 2019-05-21', departureTime='17:09 2019-05-21', duration=01ч05м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='629Б', exceptDays='null', rout='Минск — Гродно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:27 2019-05-21', departureTime='17:28 2019-05-21', duration=00ч59м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='739Б', exceptDays='null', rout='Минск — Полоцк}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:19 2019-05-21', departureTime='17:34 2019-05-21', duration=01ч45м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6127', exceptDays='null', rout='Минск-Пасс. — Молодечно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:26 2019-05-21', departureTime='18:11 2019-05-21', duration=01ч15м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='7035', exceptDays='null', rout='Минск-Пасс. — Залесье}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:02 2019-05-21', departureTime='18:18 2019-05-21', duration=01ч44м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6129', exceptDays='null', rout='Минск-Пасс. — Гудогай}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='21:12 2019-05-21', departureTime='19:17 2019-05-21', duration=01ч55м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6131', exceptDays='null', rout='Минск-Пасс. — Солы}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:20 2019-05-21', departureTime='19:30 2019-05-21', duration=00ч50м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='807Б', exceptDays='null', rout='Минск — Вильнюс}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:28 2019-05-21', departureTime='20:44 2019-05-21', duration=01ч44м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6133', exceptDays='null', rout='Минск-Пасс. — Молодечно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:38 2019-05-21', departureTime='21:26 2019-05-21', duration=01ч12м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:47 2019-05-21', departureTime='21:44 2019-05-21', duration=01ч03м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='360С', exceptDays='null', rout='Адлер — Калининград}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='23:57 2019-05-21', departureTime='22:15 2019-05-21', duration=01ч42м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6135', exceptDays='null', rout='Минск-Пасс. — Молодечно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='01:43 2019-05-22', departureTime='00:38 2019-05-22', duration=01ч05м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='634Ф', exceptDays='null', rout='Коммунары — Гродно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='02:25 2019-05-22', departureTime='00:45 2019-05-22', duration=01ч40м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6101', exceptDays='null', rout='Минск-Пасс. — Молодечно}
+2019-05-21 17:10:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='03:58 2019-05-22', departureTime='02:59 2019-05-22', duration=00ч59м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='029Ч', exceptDays='null', rout='Москва — Калининград}
+2019-05-21 17:10:32 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='01:43 2019-05-21', departureTime='00:38 2019-05-21', duration=01ч05м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='634Ф', exceptDays='null', rout='Коммунары — Гродно}, Train{arrivalTime='02:25 2019-05-21', departureTime='00:45 2019-05-21', duration=01ч40м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6101', exceptDays='null', rout='Минск-Пасс. — Молодечно}, Train{arrivalTime='03:58 2019-05-21', departureTime='02:59 2019-05-21', duration=00ч59м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='029Ч', exceptDays='null', rout='Москва — Калининград}, Train{arrivalTime='06:11 2019-05-21', departureTime='04:40 2019-05-21', duration=01ч31м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6103', exceptDays='null', rout='Минск-Пасс. — Гудогай}, Train{arrivalTime='06:53 2019-05-21', departureTime='05:24 2019-05-21', duration=01ч29м, arrivalStation='Молодечно', departureStation='Минск-Северный', number='7031', exceptDays='null', rout='Минск-Северный — Молодечно}, Train{arrivalTime='07:10 2019-05-21', departureTime='05:26 2019-05-21', duration=01ч44м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6105', exceptDays='null', rout='Минск-Пасс. — Молодечно}, Train{arrivalTime='08:33 2019-05-21', departureTime='06:25 2019-05-21', duration=02ч08м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6107', exceptDays='null', rout='Минск-Пасс. — Гудогай}, Train{arrivalTime='07:36 2019-05-21', departureTime='06:30 2019-05-21', duration=01ч06м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='741Б', exceptDays='null', rout='Минск — Полоцк}, Train{arrivalTime='08:08 2019-05-21', departureTime='07:02 2019-05-21', duration=01ч06м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='673Б', exceptDays='null', rout='Минск — Гродно}, Train{arrivalTime='08:15 2019-05-21', departureTime='07:24 2019-05-21', duration=00ч51м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='805Б', exceptDays='null', rout='Минск — Вильнюс}, Train{arrivalTime='09:25 2019-05-21', departureTime='07:35 2019-05-21', duration=01ч50м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6109', exceptDays='null', rout='Минск-Пасс. — Молодечно}, Train{arrivalTime='10:46 2019-05-21', departureTime='08:48 2019-05-21', duration=01ч58м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6113', exceptDays='null', rout='Минск-Пасс. — Молодечно}, Train{arrivalTime='11:40 2019-05-21', departureTime='09:46 2019-05-21', duration=01ч54м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6115', exceptDays='null', rout='Минск-Пасс. — Залесье}, Train{arrivalTime='11:24 2019-05-21', departureTime='10:30 2019-05-21', duration=00ч54м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='803Б', exceptDays='null', rout='Минск — Вильнюс}, Train{arrivalTime='13:02 2019-05-21', departureTime='11:17 2019-05-21', duration=01ч45м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6117', exceptDays='null', rout='Минск-Пасс. — Молодечно}, Train{arrivalTime='14:44 2019-05-21', departureTime='12:59 2019-05-21', duration=01ч45м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6119', exceptDays='null', rout='Минск-Пасс. — Молодечно}, Train{arrivalTime='15:54 2019-05-21', departureTime='14:06 2019-05-21', duration=01ч48м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6121', exceptDays='null', rout='Минск-Пасс. — Гудогай}, Train{arrivalTime='16:29 2019-05-21', departureTime='15:30 2019-05-21', duration=00ч59м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='731Ф', exceptDays='null', rout='Минск — Гродно}, Train{arrivalTime='18:06 2019-05-21', departureTime='16:22 2019-05-21', duration=01ч44м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6125', exceptDays='null', rout='Минск-Пасс. — Гудогай}, Train{arrivalTime='18:14 2019-05-21', departureTime='17:09 2019-05-21', duration=01ч05м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='629Б', exceptDays='null', rout='Минск — Гродно}, Train{arrivalTime='18:27 2019-05-21', departureTime='17:28 2019-05-21', duration=00ч59м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='739Б', exceptDays='null', rout='Минск — Полоцк}, Train{arrivalTime='19:19 2019-05-21', departureTime='17:34 2019-05-21', duration=01ч45м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6127', exceptDays='null', rout='Минск-Пасс. — Молодечно}, Train{arrivalTime='19:26 2019-05-21', departureTime='18:11 2019-05-21', duration=01ч15м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='7035', exceptDays='null', rout='Минск-Пасс. — Залесье}, Train{arrivalTime='20:02 2019-05-21', departureTime='18:18 2019-05-21', duration=01ч44м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6129', exceptDays='null', rout='Минск-Пасс. — Гудогай}, Train{arrivalTime='21:12 2019-05-21', departureTime='19:17 2019-05-21', duration=01ч55м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6131', exceptDays='null', rout='Минск-Пасс. — Солы}, Train{arrivalTime='20:20 2019-05-21', departureTime='19:30 2019-05-21', duration=00ч50м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='807Б', exceptDays='null', rout='Минск — Вильнюс}, Train{arrivalTime='22:28 2019-05-21', departureTime='20:44 2019-05-21', duration=01ч44м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6133', exceptDays='null', rout='Минск-Пасс. — Молодечно}, Train{arrivalTime='22:38 2019-05-21', departureTime='21:26 2019-05-21', duration=01ч12м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='22:47 2019-05-21', departureTime='21:44 2019-05-21', duration=01ч03м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='360С', exceptDays='null', rout='Адлер — Калининград}, Train{arrivalTime='23:57 2019-05-21', departureTime='22:15 2019-05-21', duration=01ч42м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6135', exceptDays='null', rout='Минск-Пасс. — Молодечно}, Train{arrivalTime='01:43 2019-05-22', departureTime='00:38 2019-05-22', duration=01ч05м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='634Ф', exceptDays='null', rout='Коммунары — Гродно}, Train{arrivalTime='02:25 2019-05-22', departureTime='00:45 2019-05-22', duration=01ч40м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='6101', exceptDays='null', rout='Минск-Пасс. — Молодечно}, Train{arrivalTime='03:58 2019-05-22', departureTime='02:59 2019-05-22', duration=00ч59м, arrivalStation='Молодечно', departureStation='Минск-Пасс.', number='029Ч', exceptDays='null', rout='Москва — Калининград}]
+2019-05-21 17:10:32 TRACE Controller:148 - Fill table
+2019-05-21 17:12:19 TRACE Controller:106 - Press button "Find"
+2019-05-21 17:12:19 TRACE Controller:109 - Departure station:157
+2019-05-21 17:12:19 TRACE Controller:111 - Arrival station:null
+2019-05-21 17:12:19 TRACE Controller:113 - Date: 2019-05-21
+2019-05-21 17:12:19 INFO  Controller:182 - User don't input arrival station
+2019-05-21 17:12:19 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-21 18:36:33 TRACE Controller:90 - Set default date: 2019-05-21
+2019-05-21 18:36:33 INFO  Controller:96 - Cities recived
+2019-05-21 18:36:33 INFO  Controller:101 - Success parse of cities: true
+2019-05-21 18:36:56 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:36:56 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:36:56 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:36:56 TRACE Controller:113 - Date: 2019-05-14
+2019-05-21 18:36:56 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2019-05-14
+2019-05-21 18:37:04 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:00 2019-05-14', departureTime='04:15 2019-05-14', duration=01ч45м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6102', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:31 2019-05-14', departureTime='04:53 2019-05-14', duration=01ч38м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='626Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:58 2019-05-14', departureTime='05:11 2019-05-14', duration=01ч47м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6104', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:22 2019-05-14', departureTime='05:34 2019-05-14', duration=01ч48м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6106', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:34 2019-05-14', departureTime='05:48 2019-05-14', duration=01ч46м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6108', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:45 2019-05-14', departureTime='06:38 2019-05-14', duration=01ч07м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='088Б', exceptDays='null', rout='Рига — Минск}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:44 2019-05-14', departureTime='06:47 2019-05-14', duration=01ч57м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6110', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:28 2019-05-14', departureTime='07:14 2019-05-14', duration=01ч14м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='7032', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:22 2019-05-14', departureTime='07:34 2019-05-14', duration=01ч48м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6112', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:45 2019-05-14', departureTime='08:44 2019-05-14', duration=01ч01м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='739Ф', exceptDays='null', rout='Полоцк — Минск}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:53 2019-05-14', departureTime='09:00 2019-05-14', duration=00ч53м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='804Т', exceptDays='null', rout='Вильнюс — Минск}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:08 2019-05-14', departureTime='09:11 2019-05-14', duration=01ч57м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6114', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:42 2019-05-14', departureTime='09:46 2019-05-14', duration=00ч56м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='732Ф', exceptDays='null', rout='Гродно — Минск}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:29 2019-05-14', departureTime='09:54 2019-05-14', duration=01ч35м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6116', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:36 2019-05-14', departureTime='10:32 2019-05-14', duration=01ч04м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='630Б', exceptDays='null', rout='Гродно — Минск}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='12:40 2019-05-14', departureTime='10:55 2019-05-14', duration=01ч45м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6120', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='14:50 2019-05-14', departureTime='13:03 2019-05-14', duration=01ч47м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6122', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='16:40 2019-05-14', departureTime='14:53 2019-05-14', duration=01ч47м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6124', exceptDays='null', rout='Солы — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:00 2019-05-14', departureTime='16:13 2019-05-14', duration=01ч47м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6126', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:34 2019-05-14', departureTime='16:47 2019-05-14', duration=01ч47м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6128', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:28 2019-05-14', departureTime='17:28 2019-05-14', duration=02ч00м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6130', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:00 2019-05-14', departureTime='18:06 2019-05-14', duration=00ч54м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='808Т', exceptDays='null', rout='Вильнюс — Минск}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:02 2019-05-14', departureTime='18:59 2019-05-14', duration=01ч03м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='674Б', exceptDays='null', rout='Гродно — Минск}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:09 2019-05-14', departureTime='19:08 2019-05-14', duration=01ч01м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='741Ф', exceptDays='null', rout='Полоцк — Минск}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='21:07 2019-05-14', departureTime='19:21 2019-05-14', duration=01ч46м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6132', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='21:17 2019-05-14', departureTime='19:50 2019-05-14', duration=01ч27м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='7034', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:27 2019-05-14', departureTime='20:33 2019-05-14', duration=01ч54м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6136', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:00 2019-05-14', departureTime='21:11 2019-05-14', duration=00ч49м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='806Т', exceptDays='null', rout='Вильнюс — Минск}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:33 2019-05-14', departureTime='21:18 2019-05-14', duration=01ч15м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='634Б', exceptDays='null', rout='Гродно — Коммунары}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:33 2019-05-14', departureTime='21:18 2019-05-14', duration=01ч15м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='634Щ', exceptDays='null', rout='Гродно — Коммунары}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:43 2019-05-14', departureTime='21:28 2019-05-14', duration=01ч15м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='7036', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:01 2019-05-15', departureTime='22:22 2019-05-14', duration=01ч39м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6138', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:37:04 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:23 2019-05-15', departureTime='23:20 2019-05-14', duration=01ч03м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='030Ч', exceptDays='null', rout='Калининград — Москва}
+2019-05-21 18:37:04 TRACE Controller:148 - Fill table
+2019-05-21 18:37:14 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:37:14 TRACE Controller:109 - Departure station:157
+2019-05-21 18:37:14 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:37:14 TRACE Controller:113 - Date: 2019-05-14
+2019-05-21 18:37:14 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c157&date=2019-05-14
+2019-05-21 18:37:14 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:37:14 TRACE Controller:148 - Fill table
+2019-05-21 18:37:31 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:37:31 TRACE Controller:109 - Departure station:157
+2019-05-21 18:37:31 TRACE Controller:111 - Arrival station:null
+2019-05-21 18:37:31 TRACE Controller:113 - Date: 2019-05-14
+2019-05-21 18:37:31 INFO  Controller:182 - User don't input arrival station
+2019-05-21 18:37:31 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-21 18:37:32 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:37:32 TRACE Controller:109 - Departure station:157
+2019-05-21 18:37:32 TRACE Controller:111 - Arrival station:null
+2019-05-21 18:37:32 TRACE Controller:113 - Date: 2019-05-14
+2019-05-21 18:37:32 INFO  Controller:182 - User don't input arrival station
+2019-05-21 18:37:32 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-21 18:37:32 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:37:32 TRACE Controller:109 - Departure station:157
+2019-05-21 18:37:32 TRACE Controller:111 - Arrival station:null
+2019-05-21 18:37:32 TRACE Controller:113 - Date: 2019-05-14
+2019-05-21 18:37:32 INFO  Controller:182 - User don't input arrival station
+2019-05-21 18:37:32 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-21 18:37:32 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:37:32 TRACE Controller:109 - Departure station:157
+2019-05-21 18:37:32 TRACE Controller:111 - Arrival station:null
+2019-05-21 18:37:32 TRACE Controller:113 - Date: 2019-05-14
+2019-05-21 18:37:32 INFO  Controller:182 - User don't input arrival station
+2019-05-21 18:37:32 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-21 18:37:33 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:37:33 TRACE Controller:109 - Departure station:157
+2019-05-21 18:37:33 TRACE Controller:111 - Arrival station:null
+2019-05-21 18:37:33 TRACE Controller:113 - Date: 2019-05-14
+2019-05-21 18:37:33 INFO  Controller:182 - User don't input arrival station
+2019-05-21 18:37:33 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-21 18:37:44 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:37:44 TRACE Controller:109 - Departure station:null
+2019-05-21 18:37:44 TRACE Controller:111 - Arrival station:null
+2019-05-21 18:37:44 TRACE Controller:113 - Date: 2019-05-14
+2019-05-21 18:37:44 INFO  Controller:174 - User don't input departure station and arrival station
+2019-05-21 18:37:44 TRACE Controller:165 - Set text in table: Проверьте введенные данные.
+2019-05-21 18:37:45 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:37:45 TRACE Controller:109 - Departure station:null
+2019-05-21 18:37:45 TRACE Controller:111 - Arrival station:null
+2019-05-21 18:37:45 TRACE Controller:113 - Date: 2019-05-14
+2019-05-21 18:37:45 INFO  Controller:174 - User don't input departure station and arrival station
+2019-05-21 18:37:45 TRACE Controller:165 - Set text in table: Проверьте введенные данные.
+2019-05-21 18:37:51 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:37:51 TRACE Controller:109 - Departure station:null
+2019-05-21 18:37:51 TRACE Controller:111 - Arrival station:null
+2019-05-21 18:37:51 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:37:51 INFO  Controller:174 - User don't input departure station and arrival station
+2019-05-21 18:37:51 TRACE Controller:165 - Set text in table: Проверьте введенные данные.
+2019-05-21 18:38:02 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:38:02 TRACE Controller:109 - Departure station:null
+2019-05-21 18:38:02 TRACE Controller:111 - Arrival station:null
+2019-05-21 18:38:02 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:38:02 INFO  Controller:174 - User don't input departure station and arrival station
+2019-05-21 18:38:02 TRACE Controller:165 - Set text in table: Проверьте введенные данные.
+2019-05-21 18:38:15 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:38:15 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:38:15 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:38:15 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:38:15 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2026-05-16
+2019-05-21 18:38:16 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:38:16 TRACE Controller:148 - Fill table
+2019-05-21 18:38:16 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:38:16 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:38:16 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:38:16 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:38:16 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2026-05-16
+2019-05-21 18:38:17 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:38:17 TRACE Controller:148 - Fill table
+2019-05-21 18:38:17 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:38:17 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:38:17 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:38:17 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:38:17 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2026-05-16
+2019-05-21 18:38:17 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:38:17 TRACE Controller:148 - Fill table
+2019-05-21 18:38:17 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:38:17 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:38:17 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:38:17 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:38:17 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2026-05-16
+2019-05-21 18:38:18 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:38:18 TRACE Controller:148 - Fill table
+2019-05-21 18:38:18 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:38:18 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:38:18 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:38:18 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:38:18 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2026-05-16
+2019-05-21 18:38:18 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:38:18 TRACE Controller:148 - Fill table
+2019-05-21 18:38:18 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:38:18 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:38:18 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:38:18 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:38:18 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2026-05-16
+2019-05-21 18:38:19 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:38:19 TRACE Controller:148 - Fill table
+2019-05-21 18:38:19 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:38:19 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:38:19 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:38:19 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:38:19 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2026-05-16
+2019-05-21 18:38:20 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:38:20 TRACE Controller:148 - Fill table
+2019-05-21 18:38:20 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:38:20 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:38:20 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:38:20 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:38:20 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2026-05-16
+2019-05-21 18:38:20 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:38:20 TRACE Controller:148 - Fill table
+2019-05-21 18:38:20 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:38:20 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:38:20 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:38:20 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:38:20 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2026-05-16
+2019-05-21 18:38:22 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:38:22 TRACE Controller:148 - Fill table
+2019-05-21 18:38:22 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:38:22 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:38:22 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:38:22 TRACE Controller:113 - Date: 2026-05-16
+2019-05-21 18:38:22 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2026-05-16
+2019-05-21 18:38:24 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:38:24 TRACE Controller:148 - Fill table
+2019-05-21 18:39:03 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:39:03 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:39:03 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:39:03 TRACE Controller:113 - Date: 2015-01-14
+2019-05-21 18:39:03 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2015-01-14
+2019-05-21 18:39:04 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:39:04 TRACE Controller:148 - Fill table
+2019-05-21 18:39:06 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:39:06 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:39:06 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:39:06 TRACE Controller:113 - Date: 2015-01-14
+2019-05-21 18:39:06 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2015-01-14
+2019-05-21 18:39:07 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:39:07 TRACE Controller:148 - Fill table
+2019-05-21 18:39:13 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:39:13 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:39:13 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:39:13 TRACE Controller:113 - Date: 2019-01-17
+2019-05-21 18:39:13 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2019-01-17
+2019-05-21 18:39:14 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-21 18:39:14 TRACE Controller:148 - Fill table
+2019-05-21 18:39:20 TRACE Controller:106 - Press button "Find"
+2019-05-21 18:39:20 TRACE Controller:109 - Departure station:23254
+2019-05-21 18:39:20 TRACE Controller:111 - Arrival station:157
+2019-05-21 18:39:20 TRACE Controller:113 - Date: 2019-05-31
+2019-05-21 18:39:20 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23254&to=c157&date=2019-05-31
+2019-05-21 18:39:24 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='04:08 2019-05-31', departureTime='03:02 2019-05-31', duration=01ч06м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='148Ч', exceptDays='null', rout='Калининград — Москва}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:00 2019-05-31', departureTime='04:15 2019-05-31', duration=01ч45м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6102', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:31 2019-05-31', departureTime='04:53 2019-05-31', duration=01ч38м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='626Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:58 2019-05-31', departureTime='05:11 2019-05-31', duration=01ч47м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6104', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:22 2019-05-31', departureTime='05:34 2019-05-31', duration=01ч48м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6106', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:34 2019-05-31', departureTime='05:48 2019-05-31', duration=01ч46м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6108', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:44 2019-05-31', departureTime='06:47 2019-05-31', duration=01ч57м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6110', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:28 2019-05-31', departureTime='07:14 2019-05-31', duration=01ч14м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='7032', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:22 2019-05-31', departureTime='07:34 2019-05-31', duration=01ч48м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6112', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:45 2019-05-31', departureTime='08:44 2019-05-31', duration=01ч01м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='739Ф', exceptDays='null', rout='Полоцк — Минск}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:53 2019-05-31', departureTime='09:00 2019-05-31', duration=00ч53м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='804Т', exceptDays='null', rout='Вильнюс — Минск}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:08 2019-05-31', departureTime='09:11 2019-05-31', duration=01ч57м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6114', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:42 2019-05-31', departureTime='09:46 2019-05-31', duration=00ч56м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='732Ф', exceptDays='null', rout='Гродно — Минск}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:29 2019-05-31', departureTime='09:54 2019-05-31', duration=01ч35м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6116', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:36 2019-05-31', departureTime='10:32 2019-05-31', duration=01ч04м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='630Б', exceptDays='null', rout='Гродно — Минск}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='12:40 2019-05-31', departureTime='10:55 2019-05-31', duration=01ч45м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6120', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='14:50 2019-05-31', departureTime='13:03 2019-05-31', duration=01ч47м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6122', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='16:40 2019-05-31', departureTime='14:53 2019-05-31', duration=01ч47м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6124', exceptDays='null', rout='Солы — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:00 2019-05-31', departureTime='16:13 2019-05-31', duration=01ч47м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6126', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:34 2019-05-31', departureTime='16:47 2019-05-31', duration=01ч47м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6128', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:28 2019-05-31', departureTime='17:28 2019-05-31', duration=02ч00м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6130', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:00 2019-05-31', departureTime='18:06 2019-05-31', duration=00ч54м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='808Т', exceptDays='null', rout='Вильнюс — Минск}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:02 2019-05-31', departureTime='18:59 2019-05-31', duration=01ч03м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='674Б', exceptDays='null', rout='Гродно — Минск}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:09 2019-05-31', departureTime='19:08 2019-05-31', duration=01ч01м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='741Ф', exceptDays='null', rout='Полоцк — Минск}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='21:07 2019-05-31', departureTime='19:21 2019-05-31', duration=01ч46м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6132', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='21:17 2019-05-31', departureTime='19:50 2019-05-31', duration=01ч27м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='7034', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:27 2019-05-31', departureTime='20:33 2019-05-31', duration=01ч54м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6136', exceptDays='null', rout='Молодечно — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:00 2019-05-31', departureTime='21:11 2019-05-31', duration=00ч49м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='806Т', exceptDays='null', rout='Вильнюс — Минск}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:33 2019-05-31', departureTime='21:18 2019-05-31', duration=01ч15м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='634Б', exceptDays='null', rout='Гродно — Коммунары}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:43 2019-05-31', departureTime='21:28 2019-05-31', duration=01ч15м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='7036', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='23:00 2019-05-31', departureTime='21:58 2019-05-31', duration=01ч02м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='078Б', exceptDays='null', rout='Гродно — Москва}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:01 2019-06-01', departureTime='22:22 2019-05-31', duration=01ч39м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='6138', exceptDays='null', rout='Гудогай — Минск-Пасс.}
+2019-05-21 18:39:24 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:23 2019-06-01', departureTime='23:20 2019-05-31', duration=01ч03м, arrivalStation='Минск-Пасс.', departureStation='Молодечно', number='030Ч', exceptDays='null', rout='Калининград — Москва}
+2019-05-21 18:39:24 TRACE Controller:148 - Fill table
+2019-05-21 21:51:38 TRACE Controller:90 - Set default date: 2019-05-21
+2019-05-21 21:51:38 INFO  Controller:96 - Cities recived
+2019-05-21 21:51:38 INFO  Controller:101 - Success parse of cities: true
+2019-05-21 23:42:08 TRACE Controller:90 - Set default date: 2019-05-21
+2019-05-21 23:42:09 INFO  Controller:96 - Cities recived
+2019-05-21 23:42:09 INFO  Controller:101 - Success parse of cities: true
+2019-05-21 23:42:14 TRACE Controller:90 - Set default date: 2019-05-21
+2019-05-21 23:42:14 INFO  Controller:96 - Cities recived
+2019-05-21 23:42:14 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:08:09 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 00:08:09 INFO  Controller:96 - Cities recived
+2019-05-22 00:08:09 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:08:18 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:08:18 TRACE Controller:109 - Departure station:154
+2019-05-22 00:08:18 TRACE Controller:111 - Arrival station:154
+2019-05-22 00:08:18 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:08:18 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c154&date=2019-05-22
+2019-05-22 00:08:20 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:08:20 INFO  Controller:123 - User input wrong city
+2019-05-22 00:08:20 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:08:30 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:08:30 TRACE Controller:109 - Departure station:157
+2019-05-22 00:08:30 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:08:30 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:08:30 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c157&date=2019-05-22
+2019-05-22 00:08:30 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:08:30 INFO  Controller:123 - User input wrong city
+2019-05-22 00:08:30 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:08:35 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:08:35 TRACE Controller:109 - Departure station:157
+2019-05-22 00:08:35 TRACE Controller:111 - Arrival station:154
+2019-05-22 00:08:35 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:08:35 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c154&date=2019-05-22
+2019-05-22 00:08:35 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:08:35 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:08 2019-05-22', departureTime='06:15 2019-05-22', duration=04ч53м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='658Б', exceptDays='null', rout='Брест — Витебск}
+2019-05-22 00:08:35 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:23 2019-05-22', departureTime='16:43 2019-05-22', duration=03ч40м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='704Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-22 00:08:35 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:50 2019-05-22', departureTime='18:45 2019-05-22', duration=04ч05м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='052Б', exceptDays='null', rout='Брест — Санкт-Петербург}
+2019-05-22 00:08:35 INFO  TrainParser:78 - Information about train: Train{arrivalTime='02:05 2019-05-23', departureTime='21:30 2019-05-22', duration=04ч35м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='674Б', exceptDays='null', rout='Гродно — Санкт-Петербург}
+2019-05-22 00:08:35 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:46 2019-05-23', departureTime='21:31 2019-05-22', duration=09ч15м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-22 00:08:35 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:10 2019-05-23', departureTime='23:11 2019-05-22', duration=06ч59м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='634Б', exceptDays='null', rout='Гродно — Витебск}
+2019-05-22 00:08:35 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='11:08 2019-05-22', departureTime='06:15 2019-05-22', duration=04ч53м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='658Б', exceptDays='null', rout='Брест — Витебск}, Train{arrivalTime='20:23 2019-05-22', departureTime='16:43 2019-05-22', duration=03ч40м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='704Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='22:50 2019-05-22', departureTime='18:45 2019-05-22', duration=04ч05м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='052Б', exceptDays='null', rout='Брест — Санкт-Петербург}, Train{arrivalTime='02:05 2019-05-23', departureTime='21:30 2019-05-22', duration=04ч35м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='674Б', exceptDays='null', rout='Гродно — Санкт-Петербург}, Train{arrivalTime='06:46 2019-05-23', departureTime='21:31 2019-05-22', duration=09ч15м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='06:10 2019-05-23', departureTime='23:11 2019-05-22', duration=06ч59м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='634Б', exceptDays='null', rout='Гродно — Витебск}]
+2019-05-22 00:08:35 TRACE Controller:148 - Fill table
+2019-05-22 00:08:41 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:08:41 TRACE Controller:109 - Departure station:157
+2019-05-22 00:08:41 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:08:41 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:08:41 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c157&date=2019-05-22
+2019-05-22 00:08:41 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:08:41 INFO  Controller:123 - User input wrong city
+2019-05-22 00:08:41 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:09:24 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 00:09:24 INFO  Controller:96 - Cities recived
+2019-05-22 00:09:24 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:09:32 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:09:32 TRACE Controller:109 - Departure station:153
+2019-05-22 00:09:32 TRACE Controller:111 - Arrival station:153
+2019-05-22 00:09:32 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:09:32 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c153&to=c153&date=2019-05-22
+2019-05-22 00:09:33 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:09:33 INFO  Controller:123 - User input wrong city
+2019-05-22 00:09:33 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:10:13 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:10:13 TRACE Controller:109 - Departure station:153
+2019-05-22 00:10:13 TRACE Controller:111 - Arrival station:10500
+2019-05-22 00:10:13 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:10:13 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c153&to=c10500&date=2019-05-22
+2019-05-22 00:10:13 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:10:13 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 00:10:13 TRACE Controller:148 - Fill table
+2019-05-22 00:10:17 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:10:17 TRACE Controller:109 - Departure station:153
+2019-05-22 00:10:17 TRACE Controller:111 - Arrival station:10500
+2019-05-22 00:10:17 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:10:17 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c153&to=c10500&date=2019-05-24
+2019-05-22 00:10:17 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:10:17 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:30 2019-05-25', departureTime='09:43 2019-05-24', duration=33ч47м, arrivalStation='Ницца', departureStation='Брест-Центр.', number='017Б', exceptDays='null', rout='Москва — Ницца}
+2019-05-22 00:10:17 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='18:30 2019-05-25', departureTime='09:43 2019-05-24', duration=33ч47м, arrivalStation='Ницца', departureStation='Брест-Центр.', number='017Б', exceptDays='null', rout='Москва — Ницца}]
+2019-05-22 00:10:17 TRACE Controller:148 - Fill table
+2019-05-22 00:11:03 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:11:03 TRACE Controller:109 - Departure station:153
+2019-05-22 00:11:03 TRACE Controller:111 - Arrival station:23254
+2019-05-22 00:11:03 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:11:03 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c153&to=c23254&date=2019-05-24
+2019-05-22 00:11:03 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:11:03 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 00:11:03 TRACE Controller:148 - Fill table
+2019-05-22 00:11:22 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:11:22 TRACE Controller:109 - Departure station:153
+2019-05-22 00:11:22 TRACE Controller:111 - Arrival station:21510
+2019-05-22 00:11:22 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:11:22 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c153&to=c21510&date=2019-05-24
+2019-05-22 00:11:23 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:11:23 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:24 2019-05-24', departureTime='06:40 2019-05-24', duration=03ч44м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='6354', exceptDays='null', rout='Брест-Центр. — Лунинец}
+2019-05-22 00:11:23 INFO  TrainParser:78 - Information about train: Train{arrivalTime='12:21 2019-05-24', departureTime='09:00 2019-05-24', duration=03ч21м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='6356', exceptDays='null', rout='Брест-Центр. — Лунинец}
+2019-05-22 00:11:23 INFO  TrainParser:78 - Information about train: Train{arrivalTime='13:09 2019-05-24', departureTime='10:02 2019-05-24', duration=03ч07м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='676Ф', exceptDays='null', rout='Брест — Гомель}
+2019-05-22 00:11:23 INFO  TrainParser:78 - Information about train: Train{arrivalTime='16:39 2019-05-24', departureTime='12:48 2019-05-24', duration=03ч51м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='6360', exceptDays='null', rout='Брест-Центр. — Лунинец}
+2019-05-22 00:11:23 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:41 2019-05-24', departureTime='16:00 2019-05-24', duration=03ч41м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='6362', exceptDays='null', rout='Брест-Центр. — Лунинец}
+2019-05-22 00:11:23 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:21 2019-05-24', departureTime='17:19 2019-05-24', duration=03ч02м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='606Б', exceptDays='null', rout='Брест — Витебск}
+2019-05-22 00:11:23 INFO  TrainParser:78 - Information about train: Train{arrivalTime='21:39 2019-05-24', departureTime='18:02 2019-05-24', duration=03ч37м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='6364', exceptDays='null', rout='Брест-Центр. — Пинск}
+2019-05-22 00:11:23 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:51 2019-05-24', departureTime='19:40 2019-05-24', duration=03ч11м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='604Б', exceptDays='null', rout='Брест — Гомель}
+2019-05-22 00:11:23 INFO  TrainParser:78 - Information about train: Train{arrivalTime='23:44 2019-05-24', departureTime='20:29 2019-05-24', duration=03ч15м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='658Б', exceptDays='null', rout='Брест — Витебск}
+2019-05-22 00:11:23 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='10:24 2019-05-24', departureTime='06:40 2019-05-24', duration=03ч44м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='6354', exceptDays='null', rout='Брест-Центр. — Лунинец}, Train{arrivalTime='12:21 2019-05-24', departureTime='09:00 2019-05-24', duration=03ч21м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='6356', exceptDays='null', rout='Брест-Центр. — Лунинец}, Train{arrivalTime='13:09 2019-05-24', departureTime='10:02 2019-05-24', duration=03ч07м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='676Ф', exceptDays='null', rout='Брест — Гомель}, Train{arrivalTime='16:39 2019-05-24', departureTime='12:48 2019-05-24', duration=03ч51м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='6360', exceptDays='null', rout='Брест-Центр. — Лунинец}, Train{arrivalTime='19:41 2019-05-24', departureTime='16:00 2019-05-24', duration=03ч41м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='6362', exceptDays='null', rout='Брест-Центр. — Лунинец}, Train{arrivalTime='20:21 2019-05-24', departureTime='17:19 2019-05-24', duration=03ч02м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='606Б', exceptDays='null', rout='Брест — Витебск}, Train{arrivalTime='21:39 2019-05-24', departureTime='18:02 2019-05-24', duration=03ч37м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='6364', exceptDays='null', rout='Брест-Центр. — Пинск}, Train{arrivalTime='22:51 2019-05-24', departureTime='19:40 2019-05-24', duration=03ч11м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='604Б', exceptDays='null', rout='Брест — Гомель}, Train{arrivalTime='23:44 2019-05-24', departureTime='20:29 2019-05-24', duration=03ч15м, arrivalStation='Пинск', departureStation='Брест-Центр.', number='658Б', exceptDays='null', rout='Брест — Витебск}]
+2019-05-22 00:11:23 TRACE Controller:148 - Fill table
+2019-05-22 00:11:30 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:11:30 TRACE Controller:109 - Departure station:153
+2019-05-22 00:11:30 TRACE Controller:111 - Arrival station:null
+2019-05-22 00:11:30 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:11:30 INFO  Controller:182 - User don't input arrival station
+2019-05-22 00:11:30 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-22 00:14:43 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:14:43 TRACE Controller:109 - Departure station:153
+2019-05-22 00:14:43 TRACE Controller:111 - Arrival station:null
+2019-05-22 00:14:43 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:14:43 INFO  Controller:182 - User don't input arrival station
+2019-05-22 00:14:43 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-22 00:14:45 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:14:45 TRACE Controller:109 - Departure station:153
+2019-05-22 00:14:45 TRACE Controller:111 - Arrival station:null
+2019-05-22 00:14:45 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:14:45 INFO  Controller:182 - User don't input arrival station
+2019-05-22 00:14:45 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-22 00:14:49 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 00:14:49 INFO  Controller:96 - Cities recived
+2019-05-22 00:14:49 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:15:00 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:15:00 TRACE Controller:109 - Departure station:23306
+2019-05-22 00:15:00 TRACE Controller:111 - Arrival station:153
+2019-05-22 00:15:00 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:15:00 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23306&to=c153&date=2019-05-22
+2019-05-22 00:15:02 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:15:02 INFO  TrainParser:78 - Information about train: Train{arrivalTime='05:57 2019-05-22', departureTime='01:54 2019-05-22', duration=04ч03м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='603Б', exceptDays='null', rout='Гомель — Брест}
+2019-05-22 00:15:02 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:49 2019-05-22', departureTime='03:33 2019-05-22', duration=04ч16м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='657Б', exceptDays='null', rout='Витебск — Брест}
+2019-05-22 00:15:02 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:35 2019-05-22', departureTime='04:50 2019-05-22', duration=03ч45м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='605Б', exceptDays='null', rout='Витебск — Брест}
+2019-05-22 00:15:02 INFO  TrainParser:78 - Information about train: Train{arrivalTime='16:50 2019-05-22', departureTime='13:11 2019-05-22', duration=03ч39м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='675Ф', exceptDays='null', rout='Гомель — Брест}
+2019-05-22 00:15:02 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:19 2019-05-22', departureTime='14:13 2019-05-22', duration=05ч06м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='6359', exceptDays='null', rout='Лунинец — Брест-Центр.}
+2019-05-22 00:15:02 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:21 2019-05-22', departureTime='17:14 2019-05-22', duration=05ч07м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='6361', exceptDays='null', rout='Лунинец — Брест-Центр.}
+2019-05-22 00:15:02 INFO  TrainParser:78 - Information about train: Train{arrivalTime='05:57 2019-05-23', departureTime='01:54 2019-05-23', duration=04ч03м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='603Б', exceptDays='null', rout='Гомель — Брест}
+2019-05-22 00:15:02 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:49 2019-05-23', departureTime='03:33 2019-05-23', duration=04ч16м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='657Б', exceptDays='null', rout='Витебск — Брест}
+2019-05-22 00:15:02 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='05:57 2019-05-22', departureTime='01:54 2019-05-22', duration=04ч03м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='603Б', exceptDays='null', rout='Гомель — Брест}, Train{arrivalTime='07:49 2019-05-22', departureTime='03:33 2019-05-22', duration=04ч16м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='657Б', exceptDays='null', rout='Витебск — Брест}, Train{arrivalTime='08:35 2019-05-22', departureTime='04:50 2019-05-22', duration=03ч45м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='605Б', exceptDays='null', rout='Витебск — Брест}, Train{arrivalTime='16:50 2019-05-22', departureTime='13:11 2019-05-22', duration=03ч39м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='675Ф', exceptDays='null', rout='Гомель — Брест}, Train{arrivalTime='19:19 2019-05-22', departureTime='14:13 2019-05-22', duration=05ч06м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='6359', exceptDays='null', rout='Лунинец — Брест-Центр.}, Train{arrivalTime='22:21 2019-05-22', departureTime='17:14 2019-05-22', duration=05ч07м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='6361', exceptDays='null', rout='Лунинец — Брест-Центр.}, Train{arrivalTime='05:57 2019-05-23', departureTime='01:54 2019-05-23', duration=04ч03м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='603Б', exceptDays='null', rout='Гомель — Брест}, Train{arrivalTime='07:49 2019-05-23', departureTime='03:33 2019-05-23', duration=04ч16м, arrivalStation='Брест-Центр.', departureStation='Лунинец', number='657Б', exceptDays='null', rout='Витебск — Брест}]
+2019-05-22 00:15:02 TRACE Controller:148 - Fill table
+2019-05-22 00:17:44 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:17:44 TRACE Controller:109 - Departure station:154
+2019-05-22 00:17:44 TRACE Controller:111 - Arrival station:26659
+2019-05-22 00:17:44 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:17:44 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c26659&date=2019-05-22
+2019-05-22 00:17:45 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:17:45 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 00:17:45 TRACE Controller:148 - Fill table
+2019-05-22 00:17:50 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:17:50 TRACE Controller:109 - Departure station:154
+2019-05-22 00:17:50 TRACE Controller:111 - Arrival station:26659
+2019-05-22 00:17:50 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:17:50 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c26659&date=2019-05-22
+2019-05-22 00:17:50 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:17:50 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 00:17:50 TRACE Controller:148 - Fill table
+2019-05-22 00:18:52 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:18:52 TRACE Controller:109 - Departure station:154
+2019-05-22 00:18:52 TRACE Controller:111 - Arrival station:26659
+2019-05-22 00:18:52 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:18:52 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c26659&date=2019-05-22
+2019-05-22 00:18:53 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:18:53 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 00:18:53 TRACE Controller:148 - Fill table
+2019-05-22 00:18:59 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:18:59 TRACE Controller:109 - Departure station:154
+2019-05-22 00:18:59 TRACE Controller:111 - Arrival station:26659
+2019-05-22 00:18:59 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:18:59 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c26659&date=2019-05-22
+2019-05-22 00:18:59 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:18:59 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 00:18:59 TRACE Controller:148 - Fill table
+2019-05-22 00:19:05 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 00:19:05 INFO  Controller:96 - Cities recived
+2019-05-22 00:19:05 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:19:12 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:19:12 TRACE Controller:109 - Departure station:154
+2019-05-22 00:19:12 TRACE Controller:111 - Arrival station:26659
+2019-05-22 00:19:12 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:19:12 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c26659&date=2019-05-22
+2019-05-22 00:19:14 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:19:14 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 00:19:14 TRACE Controller:148 - Fill table
+2019-05-22 00:29:35 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:29:35 TRACE Controller:109 - Departure station:154
+2019-05-22 00:29:35 TRACE Controller:111 - Arrival station:26659
+2019-05-22 00:29:35 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:29:35 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c26659&date=2019-05-22
+2019-05-22 00:29:35 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:29:35 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 00:29:35 TRACE Controller:148 - Fill table
+2019-05-22 00:39:09 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 00:39:09 INFO  Controller:96 - Cities recived
+2019-05-22 00:39:09 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:39:13 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:39:13 TRACE Controller:109 - Departure station:null
+2019-05-22 00:39:13 TRACE Controller:111 - Arrival station:null
+2019-05-22 00:39:13 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:39:13 INFO  Controller:174 - User don't input departure station and arrival station
+2019-05-22 00:39:13 TRACE Controller:165 - Set text in table: Проверьте введенные данные.
+2019-05-22 00:39:24 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:39:24 TRACE Controller:109 - Departure station:154
+2019-05-22 00:39:24 TRACE Controller:111 - Arrival station:26659
+2019-05-22 00:39:24 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:39:24 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c26659&date=2019-05-22
+2019-05-22 00:39:26 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:39:26 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 00:39:26 INFO  Controller:123 - User input wrong city
+2019-05-22 00:39:26 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:39:32 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:39:32 TRACE Controller:109 - Departure station:154
+2019-05-22 00:39:32 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:39:32 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:39:32 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c157&date=2019-05-22
+2019-05-22 00:39:32 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:39:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:33 2019-05-22', departureTime='02:27 2019-05-22', duration=04ч06м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='083А', exceptDays='null', rout='Санкт-Петербург — Гродно}
+2019-05-22 00:39:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-22', departureTime='03:14 2019-05-22', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-22 00:39:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:18 2019-05-22', departureTime='06:40 2019-05-22', duration=03ч38м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='703Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-22 00:39:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='15:32 2019-05-22', departureTime='10:46 2019-05-22', duration=04ч46м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='065Б', exceptDays='null', rout='Мурманск — Минск}
+2019-05-22 00:39:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:51 2019-05-22', departureTime='10:46 2019-05-22', duration=12ч05м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='065Б', exceptDays='null', rout='Мурманск — Брест}
+2019-05-22 00:39:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:51 2019-05-22', departureTime='18:04 2019-05-22', duration=04ч47м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='657Б', exceptDays='null', rout='Витебск — Брест}
+2019-05-22 00:39:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:22 2019-05-23', departureTime='18:43 2019-05-22', duration=05ч39м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='623Б', exceptDays='null', rout='Витебск — Гродно}
+2019-05-22 00:39:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:31 2019-05-23', departureTime='21:38 2019-05-22', duration=08ч53м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='626Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-22 00:39:32 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-23', departureTime='03:14 2019-05-23', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-22 00:39:32 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='06:33 2019-05-22', departureTime='02:27 2019-05-22', duration=04ч06м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='083А', exceptDays='null', rout='Санкт-Петербург — Гродно}, Train{arrivalTime='07:25 2019-05-22', departureTime='03:14 2019-05-22', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}, Train{arrivalTime='10:18 2019-05-22', departureTime='06:40 2019-05-22', duration=03ч38м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='703Б', exceptDays='null', rout='Витебск — Минск}, Train{arrivalTime='15:32 2019-05-22', departureTime='10:46 2019-05-22', duration=04ч46м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='065Б', exceptDays='null', rout='Мурманск — Минск}, Train{arrivalTime='22:51 2019-05-22', departureTime='10:46 2019-05-22', duration=12ч05м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='065Б', exceptDays='null', rout='Мурманск — Брест}, Train{arrivalTime='22:51 2019-05-22', departureTime='18:04 2019-05-22', duration=04ч47м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='657Б', exceptDays='null', rout='Витебск — Брест}, Train{arrivalTime='00:22 2019-05-23', departureTime='18:43 2019-05-22', duration=05ч39м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='623Б', exceptDays='null', rout='Витебск — Гродно}, Train{arrivalTime='06:31 2019-05-23', departureTime='21:38 2019-05-22', duration=08ч53м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='626Б', exceptDays='null', rout='Витебск — Минск}, Train{arrivalTime='07:25 2019-05-23', departureTime='03:14 2019-05-23', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}]
+2019-05-22 00:39:32 TRACE Controller:148 - Fill table
+2019-05-22 00:39:46 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:39:46 TRACE Controller:109 - Departure station:118
+2019-05-22 00:39:46 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:39:46 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:39:46 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c118&to=c157&date=2019-05-22
+2019-05-22 00:39:46 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:39:46 INFO  Controller:123 - User input wrong city
+2019-05-22 00:39:46 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:39:59 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:39:59 TRACE Controller:109 - Departure station:153
+2019-05-22 00:39:59 TRACE Controller:111 - Arrival station:23306
+2019-05-22 00:39:59 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:39:59 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c153&to=c23306&date=2019-05-22
+2019-05-22 00:40:00 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:40:00 INFO  TrainParser:78 - Information about train: Train{arrivalTime='14:12 2019-05-22', departureTime='10:13 2019-05-22', duration=03ч59м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='676Ф', exceptDays='null', rout='Брест — Гомель}
+2019-05-22 00:40:00 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:06 2019-05-22', departureTime='12:20 2019-05-22', duration=05ч46м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='6360', exceptDays='null', rout='Брест-Центр. — Лунинец}
+2019-05-22 00:40:00 INFO  TrainParser:78 - Information about train: Train{arrivalTime='21:09 2019-05-22', departureTime='16:00 2019-05-22', duration=05ч09м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='6362', exceptDays='null', rout='Брест-Центр. — Лунинец}
+2019-05-22 00:40:00 INFO  TrainParser:78 - Information about train: Train{arrivalTime='21:18 2019-05-22', departureTime='17:19 2019-05-22', duration=03ч59м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='606Б', exceptDays='null', rout='Брест — Витебск}
+2019-05-22 00:40:00 INFO  TrainParser:78 - Information about train: Train{arrivalTime='23:50 2019-05-22', departureTime='19:40 2019-05-22', duration=04ч10м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='604Б', exceptDays='null', rout='Брест — Гомель}
+2019-05-22 00:40:00 INFO  TrainParser:78 - Information about train: Train{arrivalTime='01:05 2019-05-23', departureTime='20:29 2019-05-22', duration=04ч36м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='658Б', exceptDays='null', rout='Брест — Витебск}
+2019-05-22 00:40:00 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='14:12 2019-05-22', departureTime='10:13 2019-05-22', duration=03ч59м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='676Ф', exceptDays='null', rout='Брест — Гомель}, Train{arrivalTime='18:06 2019-05-22', departureTime='12:20 2019-05-22', duration=05ч46м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='6360', exceptDays='null', rout='Брест-Центр. — Лунинец}, Train{arrivalTime='21:09 2019-05-22', departureTime='16:00 2019-05-22', duration=05ч09м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='6362', exceptDays='null', rout='Брест-Центр. — Лунинец}, Train{arrivalTime='21:18 2019-05-22', departureTime='17:19 2019-05-22', duration=03ч59м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='606Б', exceptDays='null', rout='Брест — Витебск}, Train{arrivalTime='23:50 2019-05-22', departureTime='19:40 2019-05-22', duration=04ч10м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='604Б', exceptDays='null', rout='Брест — Гомель}, Train{arrivalTime='01:05 2019-05-23', departureTime='20:29 2019-05-22', duration=04ч36м, arrivalStation='Лунинец', departureStation='Брест-Центр.', number='658Б', exceptDays='null', rout='Брест — Витебск}]
+2019-05-22 00:40:00 TRACE Controller:148 - Fill table
+2019-05-22 00:40:38 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 00:40:38 INFO  Controller:96 - Cities recived
+2019-05-22 00:40:38 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:44:03 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:44:03 TRACE Controller:109 - Departure station:157
+2019-05-22 00:44:03 TRACE Controller:111 - Arrival station:20729
+2019-05-22 00:44:03 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:44:03 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c20729&date=2019-05-22
+2019-05-22 00:44:05 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:44:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:37 2019-05-22', departureTime='07:08 2019-05-22', duration=01ч29м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='716Б', exceptDays='null', rout='Минск — Гомель}
+2019-05-22 00:44:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:50 2019-05-22', departureTime='07:44 2019-05-22', duration=02ч06м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='100Ф', exceptDays='null', rout='Минск — Запорожье}
+2019-05-22 00:44:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='14:31 2019-05-22', departureTime='12:20 2019-05-22', duration=02ч11м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='390Б', exceptDays='null', rout='Минск — Анапа}
+2019-05-22 00:44:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='16:33 2019-05-22', departureTime='14:57 2019-05-22', duration=01ч36м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='718Б', exceptDays='null', rout='Минск — Гомель}
+2019-05-22 00:44:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:03 2019-05-22', departureTime='15:20 2019-05-22', duration=03ч43м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='6922', exceptDays='null', rout='Минск-Пасс. — Жлобин-Пасс.}
+2019-05-22 00:44:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:24 2019-05-22', departureTime='16:27 2019-05-22', duration=01ч57м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='648Б', exceptDays='null', rout='Минск — Гомель}
+2019-05-22 00:44:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:57 2019-05-22', departureTime='17:04 2019-05-22', duration=01ч53м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='748Б', exceptDays='null', rout='Минск — Бобруйск}
+2019-05-22 00:44:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:09 2019-05-22', departureTime='17:11 2019-05-22', duration=01ч58м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='670Б', exceptDays='null', rout='Минск — Гомель}
+2019-05-22 00:44:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:05 2019-05-22', departureTime='18:10 2019-05-22', duration=01ч55м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='622Б', exceptDays='null', rout='Минск — Гомель}
+2019-05-22 00:44:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:33 2019-05-23', departureTime='22:40 2019-05-22', duration=01ч53м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='086Б', exceptDays='null', rout='Минск — Киев}
+2019-05-22 00:44:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='02:02 2019-05-23', departureTime='23:56 2019-05-22', duration=02ч06м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='632Б', exceptDays='null', rout='Гродно — Гомель}
+2019-05-22 00:44:05 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='08:37 2019-05-22', departureTime='07:08 2019-05-22', duration=01ч29м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='716Б', exceptDays='null', rout='Минск — Гомель}, Train{arrivalTime='09:50 2019-05-22', departureTime='07:44 2019-05-22', duration=02ч06м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='100Ф', exceptDays='null', rout='Минск — Запорожье}, Train{arrivalTime='14:31 2019-05-22', departureTime='12:20 2019-05-22', duration=02ч11м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='390Б', exceptDays='null', rout='Минск — Анапа}, Train{arrivalTime='16:33 2019-05-22', departureTime='14:57 2019-05-22', duration=01ч36м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='718Б', exceptDays='null', rout='Минск — Гомель}, Train{arrivalTime='19:03 2019-05-22', departureTime='15:20 2019-05-22', duration=03ч43м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='6922', exceptDays='null', rout='Минск-Пасс. — Жлобин-Пасс.}, Train{arrivalTime='18:24 2019-05-22', departureTime='16:27 2019-05-22', duration=01ч57м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='648Б', exceptDays='null', rout='Минск — Гомель}, Train{arrivalTime='18:57 2019-05-22', departureTime='17:04 2019-05-22', duration=01ч53м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='748Б', exceptDays='null', rout='Минск — Бобруйск}, Train{arrivalTime='19:09 2019-05-22', departureTime='17:11 2019-05-22', duration=01ч58м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='670Б', exceptDays='null', rout='Минск — Гомель}, Train{arrivalTime='20:05 2019-05-22', departureTime='18:10 2019-05-22', duration=01ч55м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='622Б', exceptDays='null', rout='Минск — Гомель}, Train{arrivalTime='00:33 2019-05-23', departureTime='22:40 2019-05-22', duration=01ч53м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='086Б', exceptDays='null', rout='Минск — Киев}, Train{arrivalTime='02:02 2019-05-23', departureTime='23:56 2019-05-22', duration=02ч06м, arrivalStation='Бобруйск', departureStation='Минск-Пасс.', number='632Б', exceptDays='null', rout='Гродно — Гомель}]
+2019-05-22 00:44:05 TRACE Controller:148 - Fill table
+2019-05-22 00:44:19 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:44:19 TRACE Controller:109 - Departure station:157
+2019-05-22 00:44:19 TRACE Controller:111 - Arrival station:118
+2019-05-22 00:44:19 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:44:19 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c118&date=2019-05-22
+2019-05-22 00:44:19 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:44:19 INFO  Controller:123 - User input wrong city
+2019-05-22 00:44:19 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:44:26 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:44:26 TRACE Controller:109 - Departure station:157
+2019-05-22 00:44:26 TRACE Controller:111 - Arrival station:10500
+2019-05-22 00:44:26 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:44:26 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c10500&date=2019-05-22
+2019-05-22 00:44:26 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:44:26 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 00:44:26 INFO  Controller:123 - User input wrong city
+2019-05-22 00:44:26 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:44:35 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:44:35 TRACE Controller:109 - Departure station:157
+2019-05-22 00:44:35 TRACE Controller:111 - Arrival station:10500
+2019-05-22 00:44:35 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:44:35 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c10500&date=2019-05-22
+2019-05-22 00:44:35 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:44:35 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 00:44:35 INFO  Controller:123 - User input wrong city
+2019-05-22 00:44:35 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:44:43 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:44:43 TRACE Controller:109 - Departure station:157
+2019-05-22 00:44:43 TRACE Controller:111 - Arrival station:10500
+2019-05-22 00:44:43 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:44:43 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c10500&date=2019-05-24
+2019-05-22 00:44:43 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:44:43 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:30 2019-05-25', departureTime='03:12 2019-05-24', duration=40ч18м, arrivalStation='Ницца', departureStation='Минск-Пасс.', number='017Б', exceptDays='null', rout='Москва — Ницца}
+2019-05-22 00:44:43 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='18:30 2019-05-25', departureTime='03:12 2019-05-24', duration=40ч18м, arrivalStation='Ницца', departureStation='Минск-Пасс.', number='017Б', exceptDays='null', rout='Москва — Ницца}]
+2019-05-22 00:44:43 TRACE Controller:148 - Fill table
+2019-05-22 00:47:10 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 00:47:10 INFO  Controller:96 - Cities recived
+2019-05-22 00:47:10 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:47:24 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:47:24 TRACE Controller:109 - Departure station:117
+2019-05-22 00:47:24 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:47:24 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:47:24 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c117&to=c157&date=2019-05-24
+2019-05-22 00:47:26 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:47:26 INFO  Controller:123 - User input wrong city
+2019-05-22 00:47:26 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:48:16 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:48:16 TRACE Controller:109 - Departure station:117
+2019-05-22 00:48:16 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:48:16 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:48:16 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c117&to=c157&date=2019-05-24
+2019-05-22 00:48:17 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:48:17 INFO  Controller:123 - User input wrong city
+2019-05-22 00:48:17 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:48:24 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 00:48:25 INFO  Controller:96 - Cities recived
+2019-05-22 00:48:25 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:48:32 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:48:32 TRACE Controller:109 - Departure station:117
+2019-05-22 00:48:32 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:48:32 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:48:32 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c117&to=c157&date=2019-05-22
+2019-05-22 00:48:34 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:48:34 INFO  Controller:123 - User input wrong city
+2019-05-22 00:48:34 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:48:37 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:48:37 TRACE Controller:109 - Departure station:117
+2019-05-22 00:48:37 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:48:37 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:48:37 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c117&to=c157&date=2019-05-24
+2019-05-22 00:48:38 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:48:38 INFO  Controller:123 - User input wrong city
+2019-05-22 00:48:38 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:48:40 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:48:40 TRACE Controller:109 - Departure station:117
+2019-05-22 00:48:40 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:48:40 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:48:40 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c117&to=c157&date=2019-05-24
+2019-05-22 00:48:41 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:48:41 INFO  Controller:123 - User input wrong city
+2019-05-22 00:48:41 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:48:47 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:48:47 TRACE Controller:109 - Departure station:154
+2019-05-22 00:48:47 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:48:47 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:48:47 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c157&date=2019-05-24
+2019-05-22 00:48:48 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:48:48 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:33 2019-05-24', departureTime='02:27 2019-05-24', duration=04ч06м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='083А', exceptDays='null', rout='Санкт-Петербург — Гродно}
+2019-05-22 00:48:48 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-24', departureTime='03:14 2019-05-24', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-22 00:48:48 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:18 2019-05-24', departureTime='06:40 2019-05-24', duration=03ч38м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='703Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-22 00:48:48 INFO  TrainParser:78 - Information about train: Train{arrivalTime='15:32 2019-05-24', departureTime='10:46 2019-05-24', duration=04ч46м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='065Б', exceptDays='null', rout='Мурманск — Минск}
+2019-05-22 00:48:48 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:05 2019-05-24', departureTime='15:19 2019-05-24', duration=03ч46м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='713Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-22 00:48:48 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:51 2019-05-24', departureTime='18:04 2019-05-24', duration=04ч47м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='657Б', exceptDays='null', rout='Витебск — Брест}
+2019-05-22 00:48:48 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:22 2019-05-25', departureTime='18:43 2019-05-24', duration=05ч39м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='623Б', exceptDays='null', rout='Витебск — Гродно}
+2019-05-22 00:48:48 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:31 2019-05-25', departureTime='21:38 2019-05-24', duration=08ч53м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='626Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-22 00:48:48 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:45 2019-05-25', departureTime='00:10 2019-05-25', duration=06ч35м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='679Б', exceptDays='null', rout='Витебск — Барановичи}
+2019-05-22 00:48:48 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-25', departureTime='03:14 2019-05-25', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-22 00:48:48 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='06:33 2019-05-24', departureTime='02:27 2019-05-24', duration=04ч06м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='083А', exceptDays='null', rout='Санкт-Петербург — Гродно}, Train{arrivalTime='07:25 2019-05-24', departureTime='03:14 2019-05-24', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}, Train{arrivalTime='10:18 2019-05-24', departureTime='06:40 2019-05-24', duration=03ч38м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='703Б', exceptDays='null', rout='Витебск — Минск}, Train{arrivalTime='15:32 2019-05-24', departureTime='10:46 2019-05-24', duration=04ч46м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='065Б', exceptDays='null', rout='Мурманск — Минск}, Train{arrivalTime='19:05 2019-05-24', departureTime='15:19 2019-05-24', duration=03ч46м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='713Б', exceptDays='null', rout='Витебск — Минск}, Train{arrivalTime='22:51 2019-05-24', departureTime='18:04 2019-05-24', duration=04ч47м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='657Б', exceptDays='null', rout='Витебск — Брест}, Train{arrivalTime='00:22 2019-05-25', departureTime='18:43 2019-05-24', duration=05ч39м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='623Б', exceptDays='null', rout='Витебск — Гродно}, Train{arrivalTime='06:31 2019-05-25', departureTime='21:38 2019-05-24', duration=08ч53м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='626Б', exceptDays='null', rout='Витебск — Минск}, Train{arrivalTime='06:45 2019-05-25', departureTime='00:10 2019-05-25', duration=06ч35м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='679Б', exceptDays='null', rout='Витебск — Барановичи}, Train{arrivalTime='07:25 2019-05-25', departureTime='03:14 2019-05-25', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}]
+2019-05-22 00:48:48 TRACE Controller:148 - Fill table
+2019-05-22 00:49:25 TRACE Controller:135 - User press reverce image
+2019-05-22 00:49:25 TRACE Controller:161 - Reverce direction
+2019-05-22 00:49:29 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:49:29 TRACE Controller:109 - Departure station:157
+2019-05-22 00:49:29 TRACE Controller:111 - Arrival station:117
+2019-05-22 00:49:29 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:49:29 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c117&date=2019-05-24
+2019-05-22 00:49:29 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:49:29 INFO  Controller:123 - User input wrong city
+2019-05-22 00:49:29 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:50:30 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 00:50:30 INFO  Controller:96 - Cities recived
+2019-05-22 00:50:30 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:50:42 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:50:42 TRACE Controller:109 - Departure station:117
+2019-05-22 00:50:42 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:50:42 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:50:42 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c117&to=c157&date=2019-05-22
+2019-05-22 00:50:44 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:50:44 INFO  Controller:123 - User input wrong city
+2019-05-22 00:50:44 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:52:57 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 00:52:57 INFO  Controller:96 - Cities recived
+2019-05-22 00:52:57 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:53:08 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:53:08 TRACE Controller:109 - Departure station:11475
+2019-05-22 00:53:08 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:53:08 TRACE Controller:113 - Date: 2019-05-23
+2019-05-22 00:53:08 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c11475&to=c157&date=2019-05-23
+2019-05-22 00:53:10 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:53:10 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:09 2019-05-23', departureTime='01:31 2019-05-23', duration=04ч38м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='360Ч', exceptDays='null', rout='Калининград — Адлер}
+2019-05-22 00:53:10 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:03 2019-05-23', departureTime='07:15 2019-05-23', duration=02ч48м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='804Т', exceptDays='null', rout='Вильнюс — Минск}
+2019-05-22 00:53:10 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:10 2019-05-23', departureTime='16:05 2019-05-23', duration=03ч05м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='808Т', exceptDays='null', rout='Вильнюс — Минск}
+2019-05-22 00:53:10 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:00 2019-05-23', departureTime='19:30 2019-05-23', duration=02ч30м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='806Т', exceptDays='null', rout='Вильнюс — Минск}
+2019-05-22 00:53:10 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:23 2019-05-24', departureTime='20:03 2019-05-23', duration=04ч20м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='030Ч', exceptDays='null', rout='Калининград — Москва}
+2019-05-22 00:53:10 INFO  TrainParser:78 - Information about train: Train{arrivalTime='04:08 2019-05-24', departureTime='23:29 2019-05-23', duration=04ч39м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='148Ч', exceptDays='null', rout='Калининград — Москва}
+2019-05-22 00:53:10 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:09 2019-05-24', departureTime='01:35 2019-05-24', duration=04ч34м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='031Р', exceptDays='null', rout='Рига — Киев}
+2019-05-22 00:53:10 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:09 2019-05-24', departureTime='01:35 2019-05-24', duration=04ч34м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='031С', exceptDays='null', rout='Рига — Киев}
+2019-05-22 00:53:10 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='06:09 2019-05-23', departureTime='01:31 2019-05-23', duration=04ч38м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='360Ч', exceptDays='null', rout='Калининград — Адлер}, Train{arrivalTime='10:03 2019-05-23', departureTime='07:15 2019-05-23', duration=02ч48м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='804Т', exceptDays='null', rout='Вильнюс — Минск}, Train{arrivalTime='19:10 2019-05-23', departureTime='16:05 2019-05-23', duration=03ч05м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='808Т', exceptDays='null', rout='Вильнюс — Минск}, Train{arrivalTime='22:00 2019-05-23', departureTime='19:30 2019-05-23', duration=02ч30м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='806Т', exceptDays='null', rout='Вильнюс — Минск}, Train{arrivalTime='00:23 2019-05-24', departureTime='20:03 2019-05-23', duration=04ч20м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='030Ч', exceptDays='null', rout='Калининград — Москва}, Train{arrivalTime='04:08 2019-05-24', departureTime='23:29 2019-05-23', duration=04ч39м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='148Ч', exceptDays='null', rout='Калининград — Москва}, Train{arrivalTime='06:09 2019-05-24', departureTime='01:35 2019-05-24', duration=04ч34м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='031Р', exceptDays='null', rout='Рига — Киев}, Train{arrivalTime='06:09 2019-05-24', departureTime='01:35 2019-05-24', duration=04ч34м, arrivalStation='Минск-Пасс.', departureStation='Вильнюс', number='031С', exceptDays='null', rout='Рига — Киев}]
+2019-05-22 00:53:10 TRACE Controller:148 - Fill table
+2019-05-22 00:53:26 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:53:26 TRACE Controller:109 - Departure station:10857
+2019-05-22 00:53:26 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:53:26 TRACE Controller:113 - Date: 2019-05-23
+2019-05-22 00:53:26 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c10857&to=c157&date=2019-05-23
+2019-05-22 00:53:27 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:53:27 INFO  Controller:123 - User input wrong city
+2019-05-22 00:53:27 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:54:37 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 00:54:38 INFO  Controller:96 - Cities recived
+2019-05-22 00:54:38 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 00:54:49 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:54:49 TRACE Controller:109 - Departure station:228
+2019-05-22 00:54:49 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:54:49 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:54:49 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c228&to=c157&date=2019-05-22
+2019-05-22 00:54:51 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:54:51 INFO  Controller:123 - User input wrong city
+2019-05-22 00:54:51 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:54:53 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:54:53 TRACE Controller:109 - Departure station:228
+2019-05-22 00:54:53 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:54:53 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 00:54:53 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c228&to=c157&date=2019-05-22
+2019-05-22 00:54:54 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:54:54 INFO  Controller:123 - User input wrong city
+2019-05-22 00:54:54 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:54:57 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:54:57 TRACE Controller:109 - Departure station:228
+2019-05-22 00:54:57 TRACE Controller:111 - Arrival station:157
+2019-05-22 00:54:57 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:54:57 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c228&to=c157&date=2019-05-24
+2019-05-22 00:54:58 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:54:58 INFO  Controller:123 - User input wrong city
+2019-05-22 00:54:58 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:55:03 TRACE Controller:135 - User press reverce image
+2019-05-22 00:55:03 TRACE Controller:161 - Reverce direction
+2019-05-22 00:55:04 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:55:04 TRACE Controller:109 - Departure station:157
+2019-05-22 00:55:04 TRACE Controller:111 - Arrival station:228
+2019-05-22 00:55:04 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:55:04 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c228&date=2019-05-24
+2019-05-22 00:55:05 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:55:05 INFO  Controller:123 - User input wrong city
+2019-05-22 00:55:05 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 00:55:40 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:55:40 TRACE Controller:109 - Departure station:157
+2019-05-22 00:55:40 TRACE Controller:111 - Arrival station:154
+2019-05-22 00:55:40 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:55:40 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c154&date=2019-05-24
+2019-05-22 00:55:40 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 00:55:40 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:08 2019-05-24', departureTime='06:15 2019-05-24', duration=04ч53м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='658Б', exceptDays='null', rout='Брест — Витебск}
+2019-05-22 00:55:40 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:23 2019-05-24', departureTime='16:43 2019-05-24', duration=03ч40м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='704Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-22 00:55:40 INFO  TrainParser:78 - Information about train: Train{arrivalTime='23:21 2019-05-24', departureTime='17:32 2019-05-24', duration=05ч49м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='612Б', exceptDays='null', rout='Барановичи — Витебск}
+2019-05-22 00:55:40 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:50 2019-05-24', departureTime='18:45 2019-05-24', duration=04ч05м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='052Б', exceptDays='null', rout='Брест — Санкт-Петербург}
+2019-05-22 00:55:40 INFO  TrainParser:78 - Information about train: Train{arrivalTime='23:35 2019-05-24', departureTime='19:50 2019-05-24', duration=03ч45м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='714Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-22 00:55:40 INFO  TrainParser:78 - Information about train: Train{arrivalTime='02:05 2019-05-25', departureTime='21:30 2019-05-24', duration=04ч35м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='674Б', exceptDays='null', rout='Гродно — Санкт-Петербург}
+2019-05-22 00:55:40 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:46 2019-05-25', departureTime='21:31 2019-05-24', duration=09ч15м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-22 00:55:40 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:10 2019-05-25', departureTime='23:11 2019-05-24', duration=06ч59м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='634Б', exceptDays='null', rout='Гродно — Витебск}
+2019-05-22 00:55:40 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='11:08 2019-05-24', departureTime='06:15 2019-05-24', duration=04ч53м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='658Б', exceptDays='null', rout='Брест — Витебск}, Train{arrivalTime='20:23 2019-05-24', departureTime='16:43 2019-05-24', duration=03ч40м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='704Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='23:21 2019-05-24', departureTime='17:32 2019-05-24', duration=05ч49м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='612Б', exceptDays='null', rout='Барановичи — Витебск}, Train{arrivalTime='22:50 2019-05-24', departureTime='18:45 2019-05-24', duration=04ч05м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='052Б', exceptDays='null', rout='Брест — Санкт-Петербург}, Train{arrivalTime='23:35 2019-05-24', departureTime='19:50 2019-05-24', duration=03ч45м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='714Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='02:05 2019-05-25', departureTime='21:30 2019-05-24', duration=04ч35м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='674Б', exceptDays='null', rout='Гродно — Санкт-Петербург}, Train{arrivalTime='06:46 2019-05-25', departureTime='21:31 2019-05-24', duration=09ч15м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='06:10 2019-05-25', departureTime='23:11 2019-05-24', duration=06ч59м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='634Б', exceptDays='null', rout='Гродно — Витебск}]
+2019-05-22 00:55:40 TRACE Controller:148 - Fill table
+2019-05-22 00:55:58 TRACE Controller:106 - Press button "Find"
+2019-05-22 00:55:58 TRACE Controller:109 - Departure station:157
+2019-05-22 00:55:58 TRACE Controller:111 - Arrival station:228
+2019-05-22 00:55:58 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 00:55:58 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c228&date=2019-05-24
+2019-05-22 00:55:58 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 00:55:58 INFO  Controller:123 - User input wrong city
+2019-05-22 00:55:58 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 09:15:14 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 09:15:14 INFO  Controller:96 - Cities recived
+2019-05-22 09:15:14 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 09:16:19 TRACE Controller:106 - Press button "Find"
+2019-05-22 09:16:19 TRACE Controller:109 - Departure station:10276
+2019-05-22 09:16:19 TRACE Controller:111 - Arrival station:12
+2019-05-22 09:16:19 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 09:16:19 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c10276&to=c12&date=2019-05-22
+2019-05-22 09:16:21 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='01:58 2019-05-22', departureTime='00:41 2019-05-22', duration=01ч17м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='002Б', exceptDays='null', rout='Минск — Москва}
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='04:02 2019-05-22', departureTime='02:43 2019-05-22', duration=01ч19м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='028Б', exceptDays='null', rout='Брест — Москва}
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='04:33 2019-05-22', departureTime='03:19 2019-05-22', duration=01ч14м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='030Ч', exceptDays='null', rout='Калининград — Москва}
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:34 2019-05-22', departureTime='06:20 2019-05-22', duration=01ч14м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='010Щ', exceptDays='null', rout='Варшава — Москва}
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:47 2019-05-22', departureTime='08:31 2019-05-22', duration=01ч16м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='096Б', exceptDays='null', rout='Брест — Москва}
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='23:47 2019-05-22', departureTime='22:25 2019-05-22', duration=01ч22м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='026Б', exceptDays='null', rout='Минск — Москва}
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='01:18 2019-05-23', departureTime='23:59 2019-05-22', duration=01ч19м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='055Ь', exceptDays='null', rout='Гомель — Москва}
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='01:18 2019-05-23', departureTime='23:59 2019-05-22', duration=01ч19м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='056Ф', exceptDays='null', rout='Могилёв — Москва}
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='01:58 2019-05-23', departureTime='00:41 2019-05-23', duration=01ч17м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='002Б', exceptDays='null', rout='Минск — Москва}
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='02:53 2019-05-23', departureTime='01:23 2019-05-23', duration=01ч30м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='328Б', exceptDays='null', rout='Минск — Казань}
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='04:02 2019-05-23', departureTime='02:43 2019-05-23', duration=01ч19м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='028Б', exceptDays='null', rout='Брест — Москва}
+2019-05-22 09:16:21 INFO  TrainParser:78 - Information about train: Train{arrivalTime='04:33 2019-05-23', departureTime='03:19 2019-05-23', duration=01ч14м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='030Ч', exceptDays='null', rout='Калининград — Москва}
+2019-05-22 09:16:21 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='01:58 2019-05-22', departureTime='00:41 2019-05-22', duration=01ч17м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='002Б', exceptDays='null', rout='Минск — Москва}, Train{arrivalTime='04:02 2019-05-22', departureTime='02:43 2019-05-22', duration=01ч19м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='028Б', exceptDays='null', rout='Брест — Москва}, Train{arrivalTime='04:33 2019-05-22', departureTime='03:19 2019-05-22', duration=01ч14м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='030Ч', exceptDays='null', rout='Калининград — Москва}, Train{arrivalTime='07:34 2019-05-22', departureTime='06:20 2019-05-22', duration=01ч14м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='010Щ', exceptDays='null', rout='Варшава — Москва}, Train{arrivalTime='09:47 2019-05-22', departureTime='08:31 2019-05-22', duration=01ч16м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='096Б', exceptDays='null', rout='Брест — Москва}, Train{arrivalTime='23:47 2019-05-22', departureTime='22:25 2019-05-22', duration=01ч22м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='026Б', exceptDays='null', rout='Минск — Москва}, Train{arrivalTime='01:18 2019-05-23', departureTime='23:59 2019-05-22', duration=01ч19м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='055Ь', exceptDays='null', rout='Гомель — Москва}, Train{arrivalTime='01:18 2019-05-23', departureTime='23:59 2019-05-22', duration=01ч19м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='056Ф', exceptDays='null', rout='Могилёв — Москва}, Train{arrivalTime='01:58 2019-05-23', departureTime='00:41 2019-05-23', duration=01ч17м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='002Б', exceptDays='null', rout='Минск — Москва}, Train{arrivalTime='02:53 2019-05-23', departureTime='01:23 2019-05-23', duration=01ч30м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='328Б', exceptDays='null', rout='Минск — Казань}, Train{arrivalTime='04:02 2019-05-23', departureTime='02:43 2019-05-23', duration=01ч19м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='028Б', exceptDays='null', rout='Брест — Москва}, Train{arrivalTime='04:33 2019-05-23', departureTime='03:19 2019-05-23', duration=01ч14м, arrivalStation='Смоленск', departureStation='Орша-Центр.', number='030Ч', exceptDays='null', rout='Калининград — Москва}]
+2019-05-22 09:16:21 TRACE Controller:148 - Fill table
+2019-05-22 09:16:48 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 09:16:48 INFO  Controller:96 - Cities recived
+2019-05-22 09:16:48 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 09:16:59 TRACE Controller:106 - Press button "Find"
+2019-05-22 09:16:59 TRACE Controller:109 - Departure station:10274
+2019-05-22 09:16:59 TRACE Controller:111 - Arrival station:26923
+2019-05-22 09:16:59 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 09:16:59 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c10274&to=c26923&date=2019-05-22
+2019-05-22 09:17:00 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 09:17:00 INFO  Controller:123 - User input wrong city
+2019-05-22 09:17:00 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 09:18:52 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 09:18:52 INFO  Controller:96 - Cities recived
+2019-05-22 09:18:52 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 09:19:03 TRACE Controller:106 - Press button "Find"
+2019-05-22 09:19:03 TRACE Controller:109 - Departure station:23337
+2019-05-22 09:19:03 TRACE Controller:111 - Arrival station:10274
+2019-05-22 09:19:03 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 09:19:03 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23337&to=c10274&date=2019-05-22
+2019-05-22 09:19:05 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 09:19:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:37 2019-05-22', departureTime='04:17 2019-05-22', duration=02ч20м, arrivalStation='Гродно', departureStation='Волковыск-Город', number='631Б', exceptDays='null', rout='Гомель — Гродно}
+2019-05-22 09:19:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:25 2019-05-22', departureTime='08:26 2019-05-22', duration=01ч59м, arrivalStation='Гродно', departureStation='Волковыск-Город', number='6281/6280', exceptDays='null', rout='Барановичи-Полесские — Гродно}
+2019-05-22 09:19:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='13:28 2019-05-22', departureTime='11:09 2019-05-22', duration=02ч19м, arrivalStation='Гродно', departureStation='Волковыск-Город', number='6283/6282', exceptDays='null', rout='Барановичи-Полесские — Гродно}
+2019-05-22 09:19:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:28 2019-05-22', departureTime='16:01 2019-05-22', duration=02ч27м, arrivalStation='Гродно', departureStation='Волковыск-Город', number='6285/6284', exceptDays='null', rout='Барановичи-Полесские — Гродно}
+2019-05-22 09:19:05 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:44 2019-05-22', departureTime='20:31 2019-05-22', duration=02ч13м, arrivalStation='Гродно', departureStation='Волковыск-Город', number='627Б', exceptDays='null', rout='Минск — Гродно}
+2019-05-22 09:19:05 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='06:37 2019-05-22', departureTime='04:17 2019-05-22', duration=02ч20м, arrivalStation='Гродно', departureStation='Волковыск-Город', number='631Б', exceptDays='null', rout='Гомель — Гродно}, Train{arrivalTime='10:25 2019-05-22', departureTime='08:26 2019-05-22', duration=01ч59м, arrivalStation='Гродно', departureStation='Волковыск-Город', number='6281/6280', exceptDays='null', rout='Барановичи-Полесские — Гродно}, Train{arrivalTime='13:28 2019-05-22', departureTime='11:09 2019-05-22', duration=02ч19м, arrivalStation='Гродно', departureStation='Волковыск-Город', number='6283/6282', exceptDays='null', rout='Барановичи-Полесские — Гродно}, Train{arrivalTime='18:28 2019-05-22', departureTime='16:01 2019-05-22', duration=02ч27м, arrivalStation='Гродно', departureStation='Волковыск-Город', number='6285/6284', exceptDays='null', rout='Барановичи-Полесские — Гродно}, Train{arrivalTime='22:44 2019-05-22', departureTime='20:31 2019-05-22', duration=02ч13м, arrivalStation='Гродно', departureStation='Волковыск-Город', number='627Б', exceptDays='null', rout='Минск — Гродно}]
+2019-05-22 09:19:05 TRACE Controller:148 - Fill table
+2019-05-22 09:19:40 TRACE Controller:106 - Press button "Find"
+2019-05-22 09:19:40 TRACE Controller:109 - Departure station:23337
+2019-05-22 09:19:40 TRACE Controller:111 - Arrival station:26951
+2019-05-22 09:19:40 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 09:19:40 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c23337&to=c26951&date=2019-05-22
+2019-05-22 09:19:40 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 09:19:40 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 09:19:40 INFO  Controller:123 - User input wrong city
+2019-05-22 09:19:40 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 09:19:45 TRACE Controller:106 - Press button "Find"
+2019-05-22 09:19:45 TRACE Controller:109 - Departure station:157
+2019-05-22 09:19:45 TRACE Controller:111 - Arrival station:26951
+2019-05-22 09:19:45 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 09:19:45 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c26951&date=2019-05-22
+2019-05-22 09:19:45 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 09:19:45 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 09:19:45 INFO  Controller:123 - User input wrong city
+2019-05-22 09:19:45 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 09:20:20 TRACE Controller:106 - Press button "Find"
+2019-05-22 09:20:20 TRACE Controller:109 - Departure station:157
+2019-05-22 09:20:20 TRACE Controller:111 - Arrival station:26012
+2019-05-22 09:20:20 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 09:20:20 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c26012&date=2019-05-22
+2019-05-22 09:20:20 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 09:20:20 INFO  TrainManeger:29 - Information array:[]
+2019-05-22 09:20:20 INFO  Controller:123 - User input wrong city
+2019-05-22 09:20:20 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 09:21:44 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 09:21:44 INFO  Controller:96 - Cities recived
+2019-05-22 09:21:44 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 09:21:52 TRACE Controller:106 - Press button "Find"
+2019-05-22 09:21:52 TRACE Controller:109 - Departure station:157
+2019-05-22 09:21:52 TRACE Controller:111 - Arrival station:23249
+2019-05-22 09:21:52 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 09:21:52 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c23249&date=2019-05-22
+2019-05-22 09:21:54 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:12 2019-05-22', departureTime='05:11 2019-05-22', duration=02ч01м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6904', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:22 2019-05-22', departureTime='06:11 2019-05-22', duration=02ч11м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6906', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:04 2019-05-22', departureTime='06:46 2019-05-22', duration=02ч18м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6908', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:08 2019-05-22', departureTime='07:08 2019-05-22', duration=01ч00м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='716Б', exceptDays='null', rout='Минск — Гомель}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='09:10 2019-05-22', departureTime='07:44 2019-05-22', duration=01ч26м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='100Ф', exceptDays='null', rout='Минск — Запорожье}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:14 2019-05-22', departureTime='08:27 2019-05-22', duration=01ч47м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='7024', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:00 2019-05-22', departureTime='08:56 2019-05-22', duration=02ч04м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6912', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='13:52 2019-05-22', departureTime='12:20 2019-05-22', duration=01ч32м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='390Б', exceptDays='null', rout='Минск — Анапа}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='14:32 2019-05-22', departureTime='12:28 2019-05-22', duration=02ч04м, arrivalStation='Осиповичи-1', departureStation='Минск (Институт Культуры)', number='6916', exceptDays='null', rout='Минск (Институт Культуры) — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='15:39 2019-05-22', departureTime='13:32 2019-05-22', duration=02ч07м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6918', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='16:36 2019-05-22', departureTime='14:20 2019-05-22', duration=02ч16м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6920', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='16:03 2019-05-22', departureTime='14:57 2019-05-22', duration=01ч06м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='718Б', exceptDays='null', rout='Минск — Гомель}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='17:33 2019-05-22', departureTime='15:20 2019-05-22', duration=02ч13м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6922', exceptDays='null', rout='Минск-Пасс. — Жлобин-Пасс.}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='16:52 2019-05-22', departureTime='15:35 2019-05-22', duration=01ч17м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='660Б', exceptDays='null', rout='Минск — Могилёв}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:43 2019-05-22', departureTime='16:05 2019-05-22', duration=02ч38м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6924', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='17:46 2019-05-22', departureTime='16:27 2019-05-22', duration=01ч19м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='648Б', exceptDays='null', rout='Минск — Гомель}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:13 2019-05-22', departureTime='17:04 2019-05-22', duration=01ч09м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='748Б', exceptDays='null', rout='Минск — Бобруйск}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='18:31 2019-05-22', departureTime='17:11 2019-05-22', duration=01ч20м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='670Б', exceptDays='null', rout='Минск — Гомель}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:52 2019-05-22', departureTime='17:40 2019-05-22', duration=02ч12м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6926', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:26 2019-05-22', departureTime='18:10 2019-05-22', duration=01ч16м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='622Б', exceptDays='null', rout='Минск — Гомель}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:38 2019-05-22', departureTime='18:22 2019-05-22', duration=02ч16м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6928', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='21:33 2019-05-22', departureTime='19:18 2019-05-22', duration=02ч15м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6930', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='21:04 2019-05-22', departureTime='19:44 2019-05-22', duration=01ч20м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='650Б', exceptDays='null', rout='Брест — Могилёв}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:58 2019-05-22', departureTime='20:55 2019-05-22', duration=02ч03м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6934', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='23:57 2019-05-22', departureTime='22:40 2019-05-22', duration=01ч17м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='086Б', exceptDays='null', rout='Минск — Киев}
+2019-05-22 09:21:54 INFO  TrainParser:78 - Information about train: Train{arrivalTime='01:19 2019-05-23', departureTime='23:56 2019-05-22', duration=01ч23м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='632Б', exceptDays='null', rout='Гродно — Гомель}
+2019-05-22 09:21:54 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='07:12 2019-05-22', departureTime='05:11 2019-05-22', duration=02ч01м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6904', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='08:22 2019-05-22', departureTime='06:11 2019-05-22', duration=02ч11м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6906', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='09:04 2019-05-22', departureTime='06:46 2019-05-22', duration=02ч18м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6908', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='08:08 2019-05-22', departureTime='07:08 2019-05-22', duration=01ч00м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='716Б', exceptDays='null', rout='Минск — Гомель}, Train{arrivalTime='09:10 2019-05-22', departureTime='07:44 2019-05-22', duration=01ч26м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='100Ф', exceptDays='null', rout='Минск — Запорожье}, Train{arrivalTime='10:14 2019-05-22', departureTime='08:27 2019-05-22', duration=01ч47м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='7024', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='11:00 2019-05-22', departureTime='08:56 2019-05-22', duration=02ч04м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6912', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='13:52 2019-05-22', departureTime='12:20 2019-05-22', duration=01ч32м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='390Б', exceptDays='null', rout='Минск — Анапа}, Train{arrivalTime='14:32 2019-05-22', departureTime='12:28 2019-05-22', duration=02ч04м, arrivalStation='Осиповичи-1', departureStation='Минск (Институт Культуры)', number='6916', exceptDays='null', rout='Минск (Институт Культуры) — Осиповичи-1}, Train{arrivalTime='15:39 2019-05-22', departureTime='13:32 2019-05-22', duration=02ч07м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6918', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='16:36 2019-05-22', departureTime='14:20 2019-05-22', duration=02ч16м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6920', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='16:03 2019-05-22', departureTime='14:57 2019-05-22', duration=01ч06м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='718Б', exceptDays='null', rout='Минск — Гомель}, Train{arrivalTime='17:33 2019-05-22', departureTime='15:20 2019-05-22', duration=02ч13м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6922', exceptDays='null', rout='Минск-Пасс. — Жлобин-Пасс.}, Train{arrivalTime='16:52 2019-05-22', departureTime='15:35 2019-05-22', duration=01ч17м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='660Б', exceptDays='null', rout='Минск — Могилёв}, Train{arrivalTime='18:43 2019-05-22', departureTime='16:05 2019-05-22', duration=02ч38м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6924', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='17:46 2019-05-22', departureTime='16:27 2019-05-22', duration=01ч19м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='648Б', exceptDays='null', rout='Минск — Гомель}, Train{arrivalTime='18:13 2019-05-22', departureTime='17:04 2019-05-22', duration=01ч09м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='748Б', exceptDays='null', rout='Минск — Бобруйск}, Train{arrivalTime='18:31 2019-05-22', departureTime='17:11 2019-05-22', duration=01ч20м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='670Б', exceptDays='null', rout='Минск — Гомель}, Train{arrivalTime='19:52 2019-05-22', departureTime='17:40 2019-05-22', duration=02ч12м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6926', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='19:26 2019-05-22', departureTime='18:10 2019-05-22', duration=01ч16м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='622Б', exceptDays='null', rout='Минск — Гомель}, Train{arrivalTime='20:38 2019-05-22', departureTime='18:22 2019-05-22', duration=02ч16м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6928', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='21:33 2019-05-22', departureTime='19:18 2019-05-22', duration=02ч15м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6930', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='21:04 2019-05-22', departureTime='19:44 2019-05-22', duration=01ч20м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='650Б', exceptDays='null', rout='Брест — Могилёв}, Train{arrivalTime='22:58 2019-05-22', departureTime='20:55 2019-05-22', duration=02ч03м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='6934', exceptDays='null', rout='Минск-Пасс. — Осиповичи-1}, Train{arrivalTime='23:57 2019-05-22', departureTime='22:40 2019-05-22', duration=01ч17м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='086Б', exceptDays='null', rout='Минск — Киев}, Train{arrivalTime='01:19 2019-05-23', departureTime='23:56 2019-05-22', duration=01ч23м, arrivalStation='Осиповичи-1', departureStation='Минск-Пасс.', number='632Б', exceptDays='null', rout='Гродно — Гомель}]
+2019-05-22 09:21:54 TRACE Controller:148 - Fill table
+2019-05-22 09:22:49 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 09:22:49 INFO  Controller:96 - Cities recived
+2019-05-22 09:22:49 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 09:22:55 TRACE Controller:106 - Press button "Find"
+2019-05-22 09:22:55 TRACE Controller:109 - Departure station:157
+2019-05-22 09:22:55 TRACE Controller:111 - Arrival station:20544
+2019-05-22 09:22:55 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 09:22:55 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c20544&date=2019-05-22
+2019-05-22 09:22:57 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 09:22:57 INFO  Controller:123 - User input wrong city
+2019-05-22 09:22:57 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 09:23:35 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 09:23:35 INFO  Controller:96 - Cities recived
+2019-05-22 09:23:35 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 09:23:42 TRACE Controller:106 - Press button "Find"
+2019-05-22 09:23:42 TRACE Controller:109 - Departure station:157
+2019-05-22 09:23:42 TRACE Controller:111 - Arrival station:143
+2019-05-22 09:23:42 TRACE Controller:113 - Date: 2019-05-22
+2019-05-22 09:23:42 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c143&date=2019-05-22
+2019-05-22 09:23:43 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 09:23:43 INFO  TrainParser:78 - Information about train: Train{arrivalTime='08:59 2019-05-23', departureTime='22:40 2019-05-22', duration=10ч19м, arrivalStation='Киев-Пасс.', departureStation='Минск-Пасс.', number='086Б', exceptDays='null', rout='Минск — Киев}
+2019-05-22 09:23:43 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='08:59 2019-05-23', departureTime='22:40 2019-05-22', duration=10ч19м, arrivalStation='Киев-Пасс.', departureStation='Минск-Пасс.', number='086Б', exceptDays='null', rout='Минск — Киев}]
+2019-05-22 09:23:43 TRACE Controller:148 - Fill table
+2019-05-22 10:25:34 TRACE Controller:90 - Set default date: 2019-05-22
+2019-05-22 10:25:34 INFO  Controller:96 - Cities recived
+2019-05-22 10:25:34 INFO  Controller:101 - Success parse of cities: true
+2019-05-22 10:25:51 TRACE Controller:106 - Press button "Find"
+2019-05-22 10:25:51 TRACE Controller:109 - Departure station:154
+2019-05-22 10:25:51 TRACE Controller:111 - Arrival station:157
+2019-05-22 10:25:51 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 10:25:51 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c157&date=2019-05-24
+2019-05-22 10:25:59 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 10:25:59 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:33 2019-05-24', departureTime='02:27 2019-05-24', duration=04ч06м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='083А', exceptDays='null', rout='Санкт-Петербург — Гродно}
+2019-05-22 10:25:59 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-24', departureTime='03:14 2019-05-24', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-22 10:25:59 INFO  TrainParser:78 - Information about train: Train{arrivalTime='10:18 2019-05-24', departureTime='06:40 2019-05-24', duration=03ч38м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='703Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-22 10:25:59 INFO  TrainParser:78 - Information about train: Train{arrivalTime='15:32 2019-05-24', departureTime='10:46 2019-05-24', duration=04ч46м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='065Б', exceptDays='null', rout='Мурманск — Минск}
+2019-05-22 10:25:59 INFO  TrainParser:78 - Information about train: Train{arrivalTime='19:05 2019-05-24', departureTime='15:19 2019-05-24', duration=03ч46м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='713Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-22 10:25:59 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:51 2019-05-24', departureTime='18:04 2019-05-24', duration=04ч47м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='657Б', exceptDays='null', rout='Витебск — Брест}
+2019-05-22 10:25:59 INFO  TrainParser:78 - Information about train: Train{arrivalTime='00:22 2019-05-25', departureTime='18:43 2019-05-24', duration=05ч39м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='623Б', exceptDays='null', rout='Витебск — Гродно}
+2019-05-22 10:25:59 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:31 2019-05-25', departureTime='21:38 2019-05-24', duration=08ч53м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='626Б', exceptDays='null', rout='Витебск — Минск}
+2019-05-22 10:25:59 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:45 2019-05-25', departureTime='00:10 2019-05-25', duration=06ч35м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='679Б', exceptDays='null', rout='Витебск — Барановичи}
+2019-05-22 10:25:59 INFO  TrainParser:78 - Information about train: Train{arrivalTime='07:25 2019-05-25', departureTime='03:14 2019-05-25', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}
+2019-05-22 10:25:59 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='06:33 2019-05-24', departureTime='02:27 2019-05-24', duration=04ч06м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='083А', exceptDays='null', rout='Санкт-Петербург — Гродно}, Train{arrivalTime='07:25 2019-05-24', departureTime='03:14 2019-05-24', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}, Train{arrivalTime='10:18 2019-05-24', departureTime='06:40 2019-05-24', duration=03ч38м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='703Б', exceptDays='null', rout='Витебск — Минск}, Train{arrivalTime='15:32 2019-05-24', departureTime='10:46 2019-05-24', duration=04ч46м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='065Б', exceptDays='null', rout='Мурманск — Минск}, Train{arrivalTime='19:05 2019-05-24', departureTime='15:19 2019-05-24', duration=03ч46м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='713Б', exceptDays='null', rout='Витебск — Минск}, Train{arrivalTime='22:51 2019-05-24', departureTime='18:04 2019-05-24', duration=04ч47м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='657Б', exceptDays='null', rout='Витебск — Брест}, Train{arrivalTime='00:22 2019-05-25', departureTime='18:43 2019-05-24', duration=05ч39м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='623Б', exceptDays='null', rout='Витебск — Гродно}, Train{arrivalTime='06:31 2019-05-25', departureTime='21:38 2019-05-24', duration=08ч53м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='626Б', exceptDays='null', rout='Витебск — Минск}, Train{arrivalTime='06:45 2019-05-25', departureTime='00:10 2019-05-25', duration=06ч35м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='679Б', exceptDays='null', rout='Витебск — Барановичи}, Train{arrivalTime='07:25 2019-05-25', departureTime='03:14 2019-05-25', duration=04ч11м, arrivalStation='Минск-Пасс.', departureStation='Витебск-Пасс.', number='051Б', exceptDays='null', rout='Санкт-Петербург — Брест}]
+2019-05-22 10:25:59 TRACE Controller:148 - Fill table
+2019-05-22 10:26:37 TRACE Controller:106 - Press button "Find"
+2019-05-22 10:26:37 TRACE Controller:109 - Departure station:null
+2019-05-22 10:26:37 TRACE Controller:111 - Arrival station:157
+2019-05-22 10:26:37 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 10:26:37 INFO  Controller:178 - User don't input departure station
+2019-05-22 10:26:37 TRACE Controller:165 - Set text in table: Станция отправления не найдена.
+2019-05-22 10:26:40 TRACE Controller:135 - User press reverce image
+2019-05-22 10:26:40 TRACE Controller:161 - Reverce direction
+2019-05-22 10:26:42 TRACE Controller:106 - Press button "Find"
+2019-05-22 10:26:42 TRACE Controller:109 - Departure station:157
+2019-05-22 10:26:42 TRACE Controller:111 - Arrival station:null
+2019-05-22 10:26:42 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 10:26:42 INFO  Controller:182 - User don't input arrival station
+2019-05-22 10:26:42 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-22 10:26:58 TRACE Controller:106 - Press button "Find"
+2019-05-22 10:26:58 TRACE Controller:109 - Departure station:157
+2019-05-22 10:26:58 TRACE Controller:111 - Arrival station:118
+2019-05-22 10:26:58 TRACE Controller:113 - Date: 2019-05-24
+2019-05-22 10:26:58 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c118&date=2019-05-24
+2019-05-22 10:26:58 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-22 10:26:58 INFO  Controller:123 - User input wrong city
+2019-05-22 10:26:58 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-22 10:27:17 TRACE Controller:106 - Press button "Find"
+2019-05-22 10:27:17 TRACE Controller:109 - Departure station:157
+2019-05-22 10:27:17 TRACE Controller:111 - Arrival station:154
+2019-05-22 10:27:17 TRACE Controller:113 - Date: 2019-05-15
+2019-05-22 10:27:17 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c154&date=2019-05-15
+2019-05-22 10:27:18 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-22 10:27:18 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:08 2019-05-15', departureTime='06:15 2019-05-15', duration=04ч53м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='658Б', exceptDays='null', rout='Брест — Витебск}
+2019-05-22 10:27:18 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:23 2019-05-15', departureTime='16:43 2019-05-15', duration=03ч40м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='704Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-22 10:27:18 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:50 2019-05-15', departureTime='18:45 2019-05-15', duration=04ч05м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='052Б', exceptDays='null', rout='Брест — Санкт-Петербург}
+2019-05-22 10:27:18 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:46 2019-05-16', departureTime='21:26 2019-05-15', duration=09ч20м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-22 10:27:18 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:10 2019-05-16', departureTime='23:11 2019-05-15', duration=06ч59м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='634Б', exceptDays='null', rout='Гродно — Витебск}
+2019-05-22 10:27:18 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='11:08 2019-05-15', departureTime='06:15 2019-05-15', duration=04ч53м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='658Б', exceptDays='null', rout='Брест — Витебск}, Train{arrivalTime='20:23 2019-05-15', departureTime='16:43 2019-05-15', duration=03ч40м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='704Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='22:50 2019-05-15', departureTime='18:45 2019-05-15', duration=04ч05м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='052Б', exceptDays='null', rout='Брест — Санкт-Петербург}, Train{arrivalTime='06:46 2019-05-16', departureTime='21:26 2019-05-15', duration=09ч20м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='06:10 2019-05-16', departureTime='23:11 2019-05-15', duration=06ч59м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='634Б', exceptDays='null', rout='Гродно — Витебск}]
+2019-05-22 10:27:18 TRACE Controller:148 - Fill table
+2019-05-26 09:25:20 TRACE Controller:90 - Set default date: 2019-05-26
+2019-05-26 09:25:20 INFO  Controller:96 - Cities recived
+2019-05-26 09:25:20 INFO  Controller:101 - Success parse of cities: true
+2019-05-26 09:25:41 TRACE Controller:135 - User press reverce image
+2019-05-26 09:25:41 TRACE Controller:161 - Reverce direction
+2019-05-26 09:25:41 TRACE Controller:135 - User press reverce image
+2019-05-26 09:25:41 TRACE Controller:161 - Reverce direction
+2019-05-26 09:25:42 TRACE Controller:135 - User press reverce image
+2019-05-26 09:25:42 TRACE Controller:161 - Reverce direction
+2019-05-26 09:25:50 TRACE Controller:106 - Press button "Find"
+2019-05-26 09:25:50 TRACE Controller:109 - Departure station:157
+2019-05-26 09:25:50 TRACE Controller:111 - Arrival station:154
+2019-05-26 09:25:50 TRACE Controller:113 - Date: 2019-05-27
+2019-05-26 09:25:50 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c157&to=c154&date=2019-05-27
+2019-05-26 09:25:57 TRACE TrainParser:33 - GetTrainInformation method start
+2019-05-26 09:25:57 INFO  TrainParser:78 - Information about train: Train{arrivalTime='11:08 2019-05-27', departureTime='06:15 2019-05-27', duration=04ч53м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='658Б', exceptDays='null', rout='Брест — Витебск}
+2019-05-26 09:25:57 INFO  TrainParser:78 - Information about train: Train{arrivalTime='14:50 2019-05-27', departureTime='09:52 2019-05-27', duration=04ч58м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='066Б', exceptDays='null', rout='Минск — Мурманск}
+2019-05-26 09:25:57 INFO  TrainParser:78 - Information about train: Train{arrivalTime='20:23 2019-05-27', departureTime='16:43 2019-05-27', duration=03ч40м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='704Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-26 09:25:57 INFO  TrainParser:78 - Information about train: Train{arrivalTime='22:50 2019-05-27', departureTime='18:45 2019-05-27', duration=04ч05м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='052Б', exceptDays='null', rout='Брест — Санкт-Петербург}
+2019-05-26 09:25:57 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:46 2019-05-28', departureTime='21:31 2019-05-27', duration=09ч15м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}
+2019-05-26 09:25:57 INFO  TrainParser:78 - Information about train: Train{arrivalTime='06:10 2019-05-28', departureTime='23:11 2019-05-27', duration=06ч59м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='634Б', exceptDays='null', rout='Гродно — Витебск}
+2019-05-26 09:25:57 INFO  TrainManeger:29 - Information array:[Train{arrivalTime='11:08 2019-05-27', departureTime='06:15 2019-05-27', duration=04ч53м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='658Б', exceptDays='null', rout='Брест — Витебск}, Train{arrivalTime='14:50 2019-05-27', departureTime='09:52 2019-05-27', duration=04ч58м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='066Б', exceptDays='null', rout='Минск — Мурманск}, Train{arrivalTime='20:23 2019-05-27', departureTime='16:43 2019-05-27', duration=03ч40м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='704Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='22:50 2019-05-27', departureTime='18:45 2019-05-27', duration=04ч05м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='052Б', exceptDays='null', rout='Брест — Санкт-Петербург}, Train{arrivalTime='06:46 2019-05-28', departureTime='21:31 2019-05-27', duration=09ч15м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='625Б', exceptDays='null', rout='Минск — Витебск}, Train{arrivalTime='06:10 2019-05-28', departureTime='23:11 2019-05-27', duration=06ч59м, arrivalStation='Витебск-Пасс.', departureStation='Минск-Пасс.', number='634Б', exceptDays='null', rout='Гродно — Витебск}]
+2019-05-26 09:25:57 TRACE Controller:148 - Fill table
+2019-05-26 09:26:57 TRACE Controller:106 - Press button "Find"
+2019-05-26 09:26:57 TRACE Controller:109 - Departure station:null
+2019-05-26 09:26:57 TRACE Controller:111 - Arrival station:154
+2019-05-26 09:26:57 TRACE Controller:113 - Date: 2019-05-27
+2019-05-26 09:26:57 INFO  Controller:178 - User don't input departure station
+2019-05-26 09:26:57 TRACE Controller:165 - Set text in table: Станция отправления не найдена.
+2019-05-26 09:27:01 TRACE Controller:135 - User press reverce image
+2019-05-26 09:27:01 TRACE Controller:161 - Reverce direction
+2019-05-26 09:27:02 TRACE Controller:106 - Press button "Find"
+2019-05-26 09:27:02 TRACE Controller:109 - Departure station:154
+2019-05-26 09:27:02 TRACE Controller:111 - Arrival station:null
+2019-05-26 09:27:02 TRACE Controller:113 - Date: 2019-05-27
+2019-05-26 09:27:02 INFO  Controller:182 - User don't input arrival station
+2019-05-26 09:27:02 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-26 09:27:15 TRACE Controller:106 - Press button "Find"
+2019-05-26 09:27:15 TRACE Controller:109 - Departure station:154
+2019-05-26 09:27:15 TRACE Controller:111 - Arrival station:null
+2019-05-26 09:27:15 TRACE Controller:113 - Date: 2019-05-27
+2019-05-26 09:27:15 INFO  Controller:182 - User don't input arrival station
+2019-05-26 09:27:15 TRACE Controller:165 - Set text in table: Станция прибытия не найдена.
+2019-05-26 09:28:04 TRACE Controller:106 - Press button "Find"
+2019-05-26 09:28:04 TRACE Controller:109 - Departure station:154
+2019-05-26 09:28:04 TRACE Controller:111 - Arrival station:118
+2019-05-26 09:28:04 TRACE Controller:113 - Date: 2019-05-27
+2019-05-26 09:28:04 TRACE TrainManeger:35 - URL: https://api.rasp.yandex.net/v3.0/search/?apikey=fbe0b71f-bba7-4f35-b8ed-7ba553d139b6&format=xml&from=c154&to=c118&date=2019-05-27
+2019-05-26 09:28:06 WARN  TrainManeger:46 - Don't recive anything from URL request.
+2019-05-26 09:28:06 INFO  Controller:123 - User input wrong city
+2019-05-26 09:28:06 TRACE Controller:165 - Set text in table: Поезда в указанном направлении не найдены.
+2019-05-26 09:29:01 TRACE Controller:90 - Set default date: 2019-05-26
+2019-05-26 09:29:01 ERROR Controller:99 - Problems with cities id:java.io.FileNotFoundException: d:\HomeWork\Java\JavaFX\out\artifacts\TrainSchedule\.\cities.xml (Не удается найти указанный файл)
+2019-05-26 09:29:01 INFO  Controller:101 - Success parse of cities: false
+2019-05-26 09:29:05 TRACE Controller:106 - Press button "Find"
+2019-05-26 09:29:05 WARN  Controller:128 - Write user about problems with cities id
+2019-05-26 09:29:05 TRACE Controller:165 - Set text in table: Ошибка, не найден 'cities.xml'. Попробуйте перезапустить приложение.
